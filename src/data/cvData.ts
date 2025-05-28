@@ -3,12 +3,12 @@
 export const cvData = {
   name: "Anna Karlsen",
   title: "Frontend Developer",
-  contact: "anna.karlsen@example.com | +46 70 123 45 67 | Stockholm, Sweden",
+  contact: "karlsen1973@outlook.com | Stockholm, Sweden",
   education: [
     {
-      degree: "Kandidatexamen i Datavetenskap",
-      school: "Stockholms Universitet",
-      period: "2018-2021",
+      degree: "Front End Developer",
+      school: "Medieinstitutet",
+      period: "2023-2025",
       details: "Fokus på webbutveckling och interaktionsdesign.",
     },
   ],

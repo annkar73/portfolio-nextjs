@@ -11,7 +11,7 @@ export default function CVPage() {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 border-b border-gray-300 pb-1">Utbildning</h2>
+        <h2 className="text-2xl font-semibold mb-4 border-b border-(--color-secondary-accent) pb-1">Utbildning</h2>
         {cvData.education.map((edu, index) => (
           <div key={index} className="mb-4">
             <h3 className="font-semibold text-lg">{edu.degree}</h3>
@@ -22,7 +22,7 @@ export default function CVPage() {
       </section>
 
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4 border-b border-gray-300 pb-1">Erfarenhet</h2>
+        <h2 className="text-2xl font-semibold mb-4 border-b border-(--color-secondary-accent) pb-1">Erfarenhet</h2>
         {cvData.experience.map((exp, index) => (
           <div key={index} className="mb-4">
             <h3 className="font-semibold text-lg">{exp.role}</h3>
@@ -37,7 +37,7 @@ export default function CVPage() {
       </section>
 
 <section>
-  <h2 className="text-2xl font-semibold mb-4 border-b border-gray-300 pb-1">Färdigheter</h2>
+  <h2 className="text-2xl font-semibold mb-4 border-b border-(--color-secondary-accent) pb-1">Färdigheter</h2>
   <ul className="list-disc list-inside text-sm grid grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-2">
     {cvData.skills.map((skill, index) => (
       <li key={index}>{skill}</li>
