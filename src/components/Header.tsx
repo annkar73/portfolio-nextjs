@@ -23,13 +23,12 @@ export default function Header() {
       </h1>
 
       {/* Desktop nav */}
-      <nav className="hidden md:flex space-x-6 text-right">
+      <nav className="hidden md:flex space-x-6 text-right font-semibold">
         {navLinks.map(({ href, label }) => (
           <Link
             key={href}
             href={href}
-            className="hover:underline"
-            style={{ color: "var(--color-accent)" }}
+            className="text-[var(--color-accent)] hover:underline hover:text-[var(--color-secondary-accent)]"
           >
             {label}
           </Link>
