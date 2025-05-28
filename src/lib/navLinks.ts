@@ -3,6 +3,6 @@ export const navLinks = [
   { href: "/", label: "Hem" },
   { href: "/edu", label: "Om utbildningen" },
   { href: "/cv", label: "CV" },
-  { href: "/project", label: "Projekt" },
+  { href: "/projects", label: "Projekt" },
   { href: "/contact", label: "Kontakt" },
 ];
