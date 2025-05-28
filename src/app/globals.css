@@ -5,6 +5,7 @@
 
 :root {
   --accent: oklch(0.8593 0.1512 84.97); 
+  --secondary-accent:oklch(0.74 0.1512 56.12);
   --radius: 0.625rem;
   --background: oklch(0.9524 0.0045 214.33); 
   --foreground: oklch(0.3561 0.047 263.02);
@@ -42,6 +43,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-accent: var(--accent);
+  --color-secondary-accent: var(--secondary-accent);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --color-sidebar-ring: var(--sidebar-ring);
