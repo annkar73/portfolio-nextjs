@@ -1,3 +1,4 @@
+// TODO: update this file with project data
 // src/data/projects.ts
 export interface IProject {
   title: string;

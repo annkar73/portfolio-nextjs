@@ -1,8 +1,8 @@
+// TODO: Update this file with your CV data
 // src/data/cvData.ts
-
 export const cvData = {
   name: "Anna Karlsen",
-  title: "Frontend Developer",
+  title: "Front End Developer",
   contact: "karlsen1973@outlook.com | Stockholm, Sweden",
   education: [
     {

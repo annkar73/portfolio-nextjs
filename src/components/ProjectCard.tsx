@@ -46,7 +46,7 @@ export default function ProjectCard({ project, reverse = false }: Props) {
           color: "var(--color-background)",
         }}
       >
-<h2 className="text-xl font-semibold mb-2">{project.title}</h2>
+<h2 className="text-xl text-[var(--color-accent)] uppercase font-semibold mb-2">{project.title}</h2>
 <p className="mb-4">{project.description}</p>
 {project.url && (
   <Button variant="default" size="default" asChild className={undefined}>
