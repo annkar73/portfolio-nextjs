@@ -7,22 +7,18 @@ export default function Home() {
       <Hero />
 
       <main className="flex flex-col gap-[32px] row-start-2 items-center max-w-5xl mx-auto px-10 py-4 sm:items-start">
-          lägg till sektioner med olika info
+          
           <div className="border-(--color-accent) border-3 bg-gray-200 w-full dark:bg-gray-800 p-4 my-2 rounded-none">
-            kortfattat om utbildningen och sen mer information på separat sida -
-            länk dit
+            om utbildningen
           </div>
           <div className="border-(--color-accent) border-3 bg-gray-300 w-full dark:bg-gray-800 p-4 my-2 rounded-none">
-            överblick av CV och mer information på separat sida - länk dit
+            överblick av CV
           </div>
           <div className="border-(--color-accent) border-3 bg-gray-400 w-full dark:bg-gray-800 p-4 my-2 rounded-none">
-            projektkarusell och länk till projektsida för en annan uppställning
-            så det blir en variation, i stort sett samma projektkort men med mer
-            information och lite annan layout
+            projektkarusell och länk till projektsida
           </div>
           <div className="border-(--color-accent) border-3 bg-(--color-foreground) text-(--color-background) w-full dark:bg-gray-800 p-4 my-2 rounded-none">
-            kontakt kortfattat med länkar till linkedIn och github - eventuellt
-            en separat sida med kontaktformulär om jag kan få till det snyggt
+            kontakt kortfattat med länkar till linkedIn och github 
           </div>
       </main>
     </>
