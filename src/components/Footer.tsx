@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <footer
-        className="w-full px-6 py-4 flex justify-between items-center"
+        className="w-full absolute bottom-0 px-6 py-4 flex justify-between items-center"
         style={{
             backgroundColor: "var(--color-foreground)",
             color: "var(--color-background)",
@@ -20,7 +20,7 @@ const Footer = () => {
             href="https://nextjs.org/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[var(--color-accent)] hover:underline"
+            className="text-[var(--color-accent)] w-full mb-0 hover:underline"
             >
             Next.js
             </a>
