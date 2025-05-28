@@ -36,14 +36,15 @@ export default function CVPage() {
         ))}
       </section>
 
-      <section>
-        <h2 className="text-2xl font-semibold mb-4 border-b border-gray-300 pb-1">Färdigheter</h2>
-        <ul className="list-disc list-inside grid grid-cols-3 gap-x-6">
-          {cvData.skills.map((skill, index) => (
-            <li key={index}>{skill}</li>
-          ))}
-        </ul>
-      </section>
+<section>
+  <h2 className="text-2xl font-semibold mb-4 border-b border-gray-300 pb-1">Färdigheter</h2>
+  <ul className="list-disc list-inside text-sm grid grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-2">
+    {cvData.skills.map((skill, index) => (
+      <li key={index}>{skill}</li>
+    ))}
+  </ul>
+</section>
+
     </main>
   );
 }
