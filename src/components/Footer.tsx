@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <footer
-        className="w-full absolute bottom-0 px-6 py-4 flex justify-between items-center"
+        className="w-full px-6 py-4 flex justify-between items-center"
         style={{
             backgroundColor: "var(--color-foreground)",
             color: "var(--color-background)",

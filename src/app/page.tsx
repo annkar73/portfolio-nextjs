@@ -6,7 +6,22 @@ export default function Home() {
     
       <Hero />
 
-      <main className="flex flex-col gap-[32px] row-start-2 items-center max-w-5xl mx-auto px-10 py-4 sm:items-start">
+      <main className="p-6 text-[var(--color-foreground)] bg-white max-w-3xl mx-auto">
+        <div className="w-full max-w-3xl border border-[var(--color-secondary-accent)] rounded-lg p-6 mb-8">
+          kortfattad info om utbildningen
+          </div>
+                  <div className="w-full max-w-3xl border border-[var(--color-secondary-accent)] rounded-lg p-6 mb-8">
+          kortfattad info om CV
+          </div>
+                  <div className="w-full max-w-3xl border border-[var(--color-secondary-accent)] rounded-lg p-6 mb-8">
+          karusell med projektkort
+          </div>
+                  <div className="w-full max-w-3xl border border-[var(--color-secondary-accent)] rounded-lg p-6 mb-8">
+          kortfattad kontaktinfo
+          </div>
+
+
+
       </main>
     </>
   
