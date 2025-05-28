@@ -3,7 +3,7 @@ import { cvData } from "@/data/cvData";
 
 export default function CVPage() {
   return (
-    <main className="max-w-3xl mx-auto p-6 bg-white text-gray-900 print:bg-white print:text-black print:p-0 print:shadow-none print:max-w-none print:mx-0">
+    <main className="max-w-3xl mx-auto p-6 bg-white text-[var(--color-foreground)] print:bg-white print:text-black print:p-0 print:shadow-none print:max-w-none print:mx-0">
       <section className="mb-8">
         <h1 className="text-4xl font-bold mb-2">{cvData.name}</h1>
         <p className="text-lg text-gray-700 mb-1">{cvData.title}</p>

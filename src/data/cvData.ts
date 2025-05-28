@@ -9,7 +9,19 @@ export const cvData = {
       degree: "Front End Developer",
       school: "Medieinstitutet",
       period: "2023-2025",
-      details: "Fokus på webbutveckling och interaktionsdesign.",
+      details: "Fokus på webbutveckling och interaktionsdesign",
+    },
+     {
+      degree: "Svetsare",
+      school: "Komvux/Astar",
+      period: "2014-2014",
+      details: "MMA, MIG/MAG, TIG, och gassvetsning",
+    },
+     {
+      degree: "Gymnasieexamen",
+      school: "Farsta Gymnasium",
+      period: "1989-1992",
+      details: "Humanistisk linje med inrikting språk och konst",
     },
   ],
   experience: [

@@ -1,10 +1,53 @@
 // app/edu/page.tsx
 export default function OmPage() {
   return (
-    <main className="p-6">
-      <h1 className="text-3xl font-bold mb-4">Om utbildningen</h1>
-      <p>Här kan du skriva om din utbildning, kurser, och vad du lärt dig.</p>
-      <p>Eventuellt lägga in en bild på examensbevis och betyg?</p>
+    <main className="p-6 text-[var(--color-foreground)] bg-white max-w-3xl mx-auto">
+      <h1 className="text-3xl font-bold mb-4">
+        Om utbildningen
+        </h1>
+      <p>
+        I oktober 2023 började jag Medieinstitutets utbildning till Front End Developer på distans. 27 maj 2025 var det dags för examen efter fyra fantastiskt informativa och intensiva terminer som har resulterat i 400 YH-poäng.
+        </p>
+      <h2 className="text-2xl font-bold mb-4 mt-4">
+        Kurser
+        </h2>
+      <p>Mer ingående om LIA och examensarbete</p>
+      <h2 className="text-2xl font-bold mb-4 mt-4">
+        LIA (Lärande i Arbete)  
+        </h2>
+      <p>
+        LIA var en viktig del av utbildningen där jag fick praktisk erfarenhet inom branschen. Under mina LIA-perioder arbetade jag med riktiga projekt för att tillämpa mina kunskaper i en verklig arbetsmiljö. 
+        Detta har gett mig möjlighet att bygga upp mitt nätverk och få värdefull insikt i arbetslivet som Front End Developer.
+      </p>
+      <h3 className="text-xl font-bold mb-2 mt-4">
+        LIA 1 
+        </h3>
+      <p>
+        Under LIA 1 fokuserade jag till en början på att tillämpa mina kunskaper i HTML, CSS och JavaScript. Jag fördjupade mig sedan i JavaScript-ramverket React genom att refaktorera ett befintligt projet för att ge det en responsiv design.
+      </p>
+      <h3 className="text-xl font-bold mb-2 mt-4">
+        LIA 2
+        </h3>   
+      <p> 
+        Under LIA 2 fick jag att fördjupa mig i moderna ramverk som Angular och Next.js. Jag fick att arbeta direkt mot en extern partner för att ge deras befintliga sida en responsiv och tillgänglig design samt lägga till både förändringar i layout och funktioner.
+      </p>
+      <p>Därefter fick jag möjligheten att lära mig ytterligare ett ramverk - Next.js - som jag använde i ett mindre projekt tillsammans med Tailwind och Shadcn/ui för att bygga ett stabilt och responsivt gränssnitt</p>
+      <h2 className="text-2xl font-bold mb-4 mt-4">
+        Examensarbete
+        </h2>
+      <p>
+        Mellan LIA-perioderna gjorde vi våra examensarbeten där vi fick möjlighet att visa upp våra kunskaper och färdigheter som Front End Developer. I arbetet ingick allt från den initiala planeringen med ett omfattande dokument som måste vara godkänt innan det var dags att börja arbeta och vi fick tillämpa allt vi hade lärt oss under utbildningen.
+        Målet var att skapa en professionell och användarvänlig webbapplikation som visar min kompetens inom webbutveckling likaväl som inom planering av både arbete och tid. När arbetet var klart skrev vi en slutrapport där vi reflekterade över processen, de utmaningar vi stött på och hur vi löste dem.
+        Jag valde att arbeta med ett projekt som involverade att bygga en responsiv webbapplikation med fokus på användarupplevelse och tillgänglighet med en tydlig målgrupp. Under examensarbetet fick jag möjlighet att använda de senaste teknologierna och verktygen inom webbutveckling, inklusive React och TypeScript.
+        När jag ser tillbaka på mitt examensarbete är jag stolt över det jag har åstadkommit och de färdigheter jag har utvecklat under utbildningen. Det har varit en fantastisk resa som har förberett mig väl för min framtida karriär som Front End Developer.
+      </p>
+      <h2 className="text-2xl font-bold mb-4 mt-4"> 
+        Examensbevis och betyg
+        </h2>
+      <p>
+        Efter avslutad utbildning har jag fått ett examensbevis som intygar min kompetens som Front End Developer. Detta bevis innehåller information om de kurser jag har genomfört, mina färdigheter och min prestation under utbildningen.  
+        Dessutom har jag fått betyg för varje enskild kurs jag har genomfört, vilket är en viktig del av mitt CV och min professionella profil.
+      </p>
     </main>
   );
 }
