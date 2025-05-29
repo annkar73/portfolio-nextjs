@@ -1,7 +1,7 @@
 export const navLinks = [
-  { href: "/", labelKey: "home" },
-  { href: "/about", labelKey: "about" },
-  { href: "/cv", labelKey: "cv" },
-  { href: "/projects", labelKey: "projects" },
-  { href: "/contact", labelKey: "contact" },
+  { href: "/", labelKey: "nav.home" },
+  { href: "/about", labelKey: "nav.about" },
+  { href: "/cv", labelKey: "nav.cv" },
+  { href: "/projects", labelKey: "nav.projects" },
+  { href: "/contact", labelKey: "nav.contact" },
 ];

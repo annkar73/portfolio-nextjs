@@ -8,7 +8,7 @@ import { useTranslations } from "next-intl";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const t = useTranslations("common");
+  const t = useTranslations("header");
 
   return (
     <header

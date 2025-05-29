@@ -1,8 +1,12 @@
 {
-  "title": "Anna Karlsen - Portfolio",
-  "home": "Hem",
-  "about": "Om utbildningen",
-  "cv": "CV",
-  "projects": "Projekt",
-  "contact": "Kontakt"
+  "header": {
+    "title": "Anna Karlsen - Portfolio",
+    "nav": {
+      "home": "Hem",
+      "about": "Om utbildningen",
+      "cv": "CV",
+      "projects": "Projekt",
+      "contact": "Kontakt"
+    }
+  }
 }
