@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { IProject } from "@/data/projectData";
 import Button from "@/components/Button";
+import { useTranslations } from "next-intl";
 
 interface Props {
   project: IProject;
@@ -8,9 +9,12 @@ interface Props {
 }
 
 export default function ProjectCard({ project, reverse = false }: Props) {
-  const imageSrc = project.image && project.image.trim() !== "" 
-    ? project.image 
-    : "/images/placeholder-2.png";
+  const t = useTranslations(); 
+
+  const imageSrc =
+    project.image && project.image.trim() !== ""
+      ? project.image
+      : "/images/placeholder-2.png";
 
   return (
     <div
@@ -22,7 +26,7 @@ export default function ProjectCard({ project, reverse = false }: Props) {
       <div className="w-full md:w-1/2">
         <Image
           src={imageSrc}
-          alt={project.title}
+          alt={t(`projects.${project.id}.title`)}
           width={800}
           height={500}
           className="w-full h-full object-cover"
@@ -32,12 +36,12 @@ export default function ProjectCard({ project, reverse = false }: Props) {
       </div>
 
       {/* Separator */}
-<div
-  className={`mx-auto md:mx-0 border-t-3 md:border-t-0 ${
-    reverse ? "md:border-r-4" : "md:border-l-4"
-  } border-l-0 w-full md:w-0 h-0.5 md:h-auto`}
-  style={{ borderColor: "var(--color-accent)" }}
-></div>
+      <div
+        className={`mx-auto md:mx-0 border-t-3 md:border-t-0 ${
+          reverse ? "md:border-r-4" : "md:border-l-4"
+        } border-l-0 w-full md:w-0 h-0.5 md:h-auto`}
+        style={{ borderColor: "var(--color-accent)" }}
+      ></div>
 
       <div
         className="w-full md:w-1/2 flex flex-col justify-center p-6"
@@ -46,20 +50,22 @@ export default function ProjectCard({ project, reverse = false }: Props) {
           color: "var(--color-background)",
         }}
       >
-<h2 className="text-xl text-[var(--color-accent)] uppercase font-semibold mb-2">{project.title}</h2>
-<p className="mb-4">{project.description}</p>
-{project.url && (
-  <Button variant="default" size="default" asChild className={undefined}>
-    <a
-      href={project.url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="font-semibold"
-    >
-      Läs mer
-    </a>
-  </Button>
-)}
+        <h2 className="text-xl text-[var(--color-accent)] uppercase font-semibold mb-2">
+          {t(`projects.${project.id}.title`)}
+        </h2>
+        <p className="mb-4">{t(`projects.${project.id}.description`)}</p>
+        {project.url && (
+          <Button variant="default" size="default" asChild className={undefined}>
+            <a
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold"
+            >
+              Läs mer
+            </a>
+          </Button>
+        )}
       </div>
     </div>
   );

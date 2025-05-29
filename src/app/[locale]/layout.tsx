@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server"; 
+import { getMessages } from "@/messages"; 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "@/app/globals.css";
@@ -34,7 +34,7 @@ export default async function RootLayout({ children, params }: RootLayoutProps) 
   const { locale } = params;
 
 
-  const messages = await getMessages({ locale });
+  const messages = getMessages(locale);
   if (!messages) notFound();
 
   return (

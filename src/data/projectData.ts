@@ -1,27 +1,20 @@
-// TODO: update this file with project data
-// src/data/projects.ts
+// src/data/projectData.ts
 export interface IProject {
-  id: number;
-  title: string;
-  description: string;
+  id: string; // används för att slå upp översättning
   image: string;
   url?: string;
 }
 
 export const projects: IProject[] = [
   {
-    id: 0,
-    title: "Todo-app",
-    description: "En enkel att göra-app byggd med React och TypeScript.",
+    id: "todo",
     image: "",
     url: "https://github.com/dittrepo/todo",
   },
   {
-    id: 1,
-    title: "Memory-spel",
-    description: "Ett memory-spel med ljud och tema.",
+    id: "memory",
     image: "",
     url: "https://github.com/dittrepo/memory",
   },
-  // Fyll på...
+  // Fyll på med fler projekt
 ];

@@ -9,7 +9,7 @@
       "contact": "Kontakt"
     }
   },
-  
+
   "hero": {
     "name": "Anna Karlsen",
     "title": "< Front End Developer />",
@@ -18,7 +18,7 @@
     "text1": "Riktigt så illa är det väl inte? Jag tror däremot att det är viktigt att ständigt utvecklas och lära sig nya saker."
   },
 
-  "Edu": {
+  "edu": {
     "title": "Om utbildningen",
     "intro": "I oktober 2023 började jag Medieinstitutets utbildning till Front End Developer på distans. 27 maj 2025 var det dags för examen efter fyra fantastiskt informativa och intensiva terminer som har resulterat i 400 YH-poäng.",
     "courses": "Kurser",
@@ -34,9 +34,16 @@
     "thesisDesc": "Mellan LIA-perioderna gjorde vi våra examensarbeten där vi fick möjlighet att visa upp våra kunskaper och färdigheter som Front End Developer. I arbetet ingick allt från den initiala planeringen med ett omfattande dokument som måste vara godkänt innan det var dags att börja arbeta och vi fick tillämpa allt vi hade lärt oss under utbildningen. Målet var att skapa en professionell och användarvänlig webbapplikation som visar min kompetens inom webbutveckling likaväl som inom planering av både arbete och tid. När arbetet var klart skrev vi en slutrapport där vi reflekterade över processen, de utmaningar vi stött på och hur vi löste dem. Jag valde att arbeta med ett projekt som involverade att bygga en responsiv webbapplikation med fokus på användarupplevelse och tillgänglighet med en tydlig målgrupp. Under examensarbetet fick jag möjlighet att använda de senaste teknologierna och verktygen inom webbutveckling, inklusive React och TypeScript. När jag ser tillbaka på mitt examensarbete är jag stolt över det jag har åstadkommit och de färdigheter jag har utvecklat under utbildningen. Det har varit en fantastisk resa som har förberett mig väl för min framtida karriär som Front End Developer.",
     "certificates": "Examensbevis och betyg",
     "certificatesDesc": "Efter avslutad utbildning har jag fått ett examensbevis som intygar min kompetens som Front End Developer. Detta bevis innehåller information om de kurser jag har genomfört, mina färdigheter och min prestation under utbildningen. Dessutom har jag fått betyg för varje enskild kurs jag har genomfört, vilket är en viktig del av mitt CV och min professionella profil."
+  },
+
+  "projects": {
+    "todo": {
+      "title": "Att göra-app",
+      "description": "En enkel att göra-app byggd med React och TypeScript."
+    },
+    "memory": {
+      "title": "Memory-spel",
+      "description": "Ett memory-spel med ljud och tema."
+    }
   }
-
-
-  
 }
-

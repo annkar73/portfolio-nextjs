@@ -3,13 +3,14 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { navLinks } from "@/lib/navLinks";
-import { useTranslations } from "next-intl";
+import navLinks from "@/lib/navLinks";
+import { useTranslations, useLocale } from "next-intl";
 import ToggleSwitch from "./ToggleSwitch"; // rätt path
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const t = useTranslations("header");
+  const locale = useLocale();
 
   return (
     <header
@@ -20,7 +21,7 @@ export default function Header() {
       className="w-full px-6 py-4 flex justify-between items-center relative"
     >
       <h1 className="font-bold text-xl">
-        <Link href="/" style={{ color: "var(--color-accent)" }}>
+        <Link href={`/${locale}`} style={{ color: "var(--color-accent)" }}>
           {t("title")}
         </Link>
       </h1>
@@ -31,7 +32,7 @@ export default function Header() {
           {navLinks.map(({ href, labelKey }) => (
             <Link
               key={href}
-              href={href}
+              href={`/${locale}${href}`}
               className="text-[var(--color-accent)] hover:underline hover:text-[var(--color-secondary-accent)]"
             >
               {t(labelKey)}
@@ -63,7 +64,7 @@ export default function Header() {
           {navLinks.map(({ href, labelKey }) => (
             <Link
               key={href}
-              href={href}
+              href={`/${locale}${href}`}
               onClick={() => setIsOpen(false)}
               className="hover:underline"
               style={{ color: "var(--color-accent)" }}
