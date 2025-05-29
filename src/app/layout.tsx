@@ -1,11 +1,12 @@
 // app/[locale]/layout.tsx
-
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import { notFound } from "next/navigation";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { IntlProvider } from "next-intl";
+import "@/app/globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,7 +23,6 @@ export const metadata: Metadata = {
   description: "Portfolio of Anna Karlsen, Front End Developer",
 };
 
-// Route param-typ för Next.js 13 app dir
 interface RootLayoutProps {
   children: React.ReactNode;
   params: {
@@ -33,17 +33,17 @@ interface RootLayoutProps {
 export default async function RootLayout({ children, params }: RootLayoutProps) {
   const { locale } = params;
 
-  // Dynamiskt importera rätt meddelandefil beroende på locale
-  const messages = (await import(`../../src/messages/${locale}.json`)).default;
+  const messages = await getMessages();
+  if (!messages) notFound();
 
   return (
     <html lang={locale}>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <IntlProvider messages={messages} locale={locale}>
+        <NextIntlClientProvider messages={messages} locale={locale}>
           <Header />
           {children}
           <Footer />
-        </IntlProvider>
+        </NextIntlClientProvider>
       </body>
     </html>
   );
