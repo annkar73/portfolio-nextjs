@@ -19,36 +19,40 @@ export default function Header() {
       }}
       className="w-full px-6 py-4 flex justify-between items-center relative"
     >
-              <ToggleSwitch /> {/* Här visar du switchen precis till vänster om länkarna */}
-
       <h1 className="font-bold text-xl">
         <Link href="/" style={{ color: "var(--color-accent)" }}>
           {t("title")}
         </Link>
       </h1>
 
-      {/* Desktop nav */}
-      <nav className="hidden md:flex space-x-6 text-right font-semibold items-center">
-        {navLinks.map(({ href, labelKey }) => (
-          <Link
-            key={href}
-            href={href}
-            className="text-[var(--color-accent)] hover:underline hover:text-[var(--color-secondary-accent)]"
-          >
-            {t(labelKey)}
-          </Link>
-        ))}
-      </nav>
+      {/* Desktop: Container för nav + toggle, längst till höger */}
+      <div className="hidden md:flex items-center space-x-4">
+        <nav className="flex space-x-6 text-right font-semibold">
+          {navLinks.map(({ href, labelKey }) => (
+            <Link
+              key={href}
+              href={href}
+              className="text-[var(--color-accent)] hover:underline hover:text-[var(--color-secondary-accent)]"
+            >
+              {t(labelKey)}
+            </Link>
+          ))}
+        </nav>
+        <ToggleSwitch />
+      </div>
 
-      {/* Hamburger button */}
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        aria-label="Toggle menu"
-        className="md:hidden p-2"
-        style={{ color: "var(--color-accent)" }}
-      >
-        {isOpen ? <X size={24} /> : <Menu size={24} />}
-      </button>
+      {/* Mobil: Toggle före hamburger */}
+      <div className="flex md:hidden items-center space-x-4">
+        <ToggleSwitch />
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          aria-label="Toggle menu"
+          className="p-2"
+          style={{ color: "var(--color-accent)" }}
+        >
+          {isOpen ? <X size={24} /> : <Menu size={24} />}
+        </button>
+      </div>
 
       {/* Mobile nav */}
       {isOpen && (
