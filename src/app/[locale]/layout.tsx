@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getMessages } from "next-intl/server"; // ⬅️ lägg till denna
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "@/app/globals.css";
@@ -32,6 +32,8 @@ interface RootLayoutProps {
 
 export default async function RootLayout({ children, params }: RootLayoutProps) {
   const { locale } = params;
+
+  // unstable_setRequestLocale(locale); // ⬅️ VIKTIG RAD (removed, not available)
 
   const messages = await getMessages();
   if (!messages) notFound();

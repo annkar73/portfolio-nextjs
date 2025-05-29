@@ -3,7 +3,7 @@
     "title": "Anna Karlsen - Portfolio",
     "nav": {
       "home": "Home",
-      "about": "About the Education",
+      "edu": "About the Education",
       "cv": "CV",
       "projects": "Projects",
       "contact": "Contact"
@@ -14,5 +14,23 @@
     "title": "< Front End Developer />",
     "quote": "Once you stop learning, you start dying, said Albert Einstein.",
     "text1": "It’s probably not that bad? However, I believe it’s important to continuously grow and learn new things."
-  }
+  },
+  "Edu": {
+  "title": "About the Education",
+  "intro": "In October 2023, I started the Media Institute's distance education program to become a Front End Developer. On May 27, 2025, it was time for graduation after four fantastic, informative, and intensive semesters resulting in 400 YH credits.",
+  "courses": "Courses",
+  "aboutLiaAndThesis": "More about LIA and thesis",
+  "lia": "LIA (Learning in Work)",
+  "liaDescription": "LIA was an important part of the education where I gained practical experience within the industry. During my LIA periods, I worked on real projects to apply my skills in a real work environment. This gave me the opportunity to build my network and gain valuable insight into working life as a Front End Developer.",
+  "lia1Title": "LIA 1",
+  "lia1Desc": "During LIA 1, I initially focused on applying my knowledge of HTML, CSS, and JavaScript. I then deepened my skills in the JavaScript framework React by refactoring an existing project to give it a responsive design.",
+  "lia2Title": "LIA 2",
+  "lia2Desc": "During LIA 2, I got to dive deeper into modern frameworks like Angular and Next.js. I worked directly with an external partner to give their existing site a responsive and accessible design as well as adding changes to layout and functionality.",
+  "lia2More": "After that, I had the opportunity to learn another framework - Next.js - which I used in a smaller project together with Tailwind and Shadcn/ui to build a stable and responsive interface.",
+  "thesis": "Thesis",
+  "thesisDesc": "Between the LIA periods, we completed our theses where we had the chance to demonstrate our skills as Front End Developers. The work included everything from the initial planning with an extensive document that had to be approved before starting work, and we applied everything we had learned during the education. The goal was to create a professional and user-friendly web application showcasing my competence in web development as well as planning both work and time. When the work was done, we wrote a final report reflecting on the process, the challenges we faced, and how we solved them. I chose to work on a project involving building a responsive web application focusing on user experience and accessibility with a clear target audience. During the thesis, I had the opportunity to use the latest technologies and tools in web development, including React and TypeScript. Looking back on my thesis, I am proud of what I have accomplished and the skills I have developed during the education. It has been an amazing journey that has prepared me well for my future career as a Front End Developer.",
+  "certificates": "Certificates and grades",
+  "certificatesDesc": "After completing the education, I received a certificate confirming my competence as a Front End Developer. This certificate contains information about the courses I completed, my skills, and my performance during the education. Additionally, I received grades for each individual course I completed, which is an important part of my CV and professional profile."
+}
+
 }
