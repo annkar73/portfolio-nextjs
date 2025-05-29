@@ -19,6 +19,8 @@ export default function Header() {
       }}
       className="w-full px-6 py-4 flex justify-between items-center relative"
     >
+              <ToggleSwitch /> {/* Här visar du switchen precis till vänster om länkarna */}
+
       <h1 className="font-bold text-xl">
         <Link href="/" style={{ color: "var(--color-accent)" }}>
           {t("title")}
@@ -27,7 +29,6 @@ export default function Header() {
 
       {/* Desktop nav */}
       <nav className="hidden md:flex space-x-6 text-right font-semibold items-center">
-        <ToggleSwitch /> {/* Här visar du switchen precis till vänster om länkarna */}
         {navLinks.map(({ href, labelKey }) => (
           <Link
             key={href}

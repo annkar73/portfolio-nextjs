@@ -34,7 +34,7 @@ export default async function RootLayout({ children, params }: RootLayoutProps) 
   const { locale } = params;
 
 
-  const messages = await getMessages();
+  const messages = await getMessages({ locale });
   if (!messages) notFound();
 
   return (
