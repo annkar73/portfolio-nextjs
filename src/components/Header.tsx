@@ -5,6 +5,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { navLinks } from "@/lib/navLinks";
 import { useTranslations } from "next-intl";
+import ToggleSwitch from "./ToggleSwitch"; // rätt path
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +26,8 @@ export default function Header() {
       </h1>
 
       {/* Desktop nav */}
-      <nav className="hidden md:flex space-x-6 text-right font-semibold">
+      <nav className="hidden md:flex space-x-6 text-right font-semibold items-center">
+        <ToggleSwitch /> {/* Här visar du switchen precis till vänster om länkarna */}
         {navLinks.map(({ href, labelKey }) => (
           <Link
             key={href}
