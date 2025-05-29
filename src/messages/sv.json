@@ -13,9 +13,11 @@
   "hero": {
     "name": "Anna Karlsen",
     "title": "< Front End Developer />",
-    "quote": "När du väl slutar lära dig börjar du dö, sa Albert Einstein.",
+    "quote": "När du väl slutar lära dig börjar du dö",
+    "quoteAuthor": " - Albert Einstein",
     "text1": "Riktigt så illa är det väl inte? Jag tror däremot att det är viktigt att ständigt utvecklas och lära sig nya saker."
   },
+
   "Edu": {
     "title": "Om utbildningen",
     "intro": "I oktober 2023 började jag Medieinstitutets utbildning till Front End Developer på distans. 27 maj 2025 var det dags för examen efter fyra fantastiskt informativa och intensiva terminer som har resulterat i 400 YH-poäng.",

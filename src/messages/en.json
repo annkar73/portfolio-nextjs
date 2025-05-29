@@ -12,7 +12,8 @@
    "hero": {
     "name": "Anna Karlsen",
     "title": "< Front End Developer />",
-    "quote": "Once you stop learning, you start dying, said Albert Einstein.",
+    "quote": "Once you stop learning, you start dying",
+    "quoteAuthor": " - Albert Einstein",
     "text1": "It’s probably not that bad? However, I believe it’s important to continuously grow and learn new things."
   },
   "Edu": {

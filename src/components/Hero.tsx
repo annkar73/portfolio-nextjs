@@ -23,10 +23,11 @@ export default function Hero() {
           {t("title")}
         </h3>
         <div className="my-10 mx-10 text-[var(--color-accent)] text-xl md:text-2xl space-y-4">
-          <p>
-            <q className="italic">{t("quote")}</q>
+        <p>
+            <q className="italic">{t("quote")}</q>{" "}
+            <span>{t("quoteAuthor")}</span>
           </p>
-          <p>{t("text1")}</p>
+           <p>{t("text1")}</p>
         </div>
       </div>
     </section>
