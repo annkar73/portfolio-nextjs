@@ -4,9 +4,11 @@ import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { navLinks } from "@/lib/navLinks";
+import { useTranslations } from "next-intl";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const t = useTranslations("common");
 
   return (
     <header
@@ -18,19 +20,19 @@ export default function Header() {
     >
       <h1 className="font-bold text-xl">
         <Link href="/" style={{ color: "var(--color-accent)" }}>
-          Anna Karlsen - Portfolio
+          {t("title")}
         </Link>
       </h1>
 
       {/* Desktop nav */}
       <nav className="hidden md:flex space-x-6 text-right font-semibold">
-        {navLinks.map(({ href, label }) => (
+        {navLinks.map(({ href, labelKey }) => (
           <Link
             key={href}
             href={href}
             className="text-[var(--color-accent)] hover:underline hover:text-[var(--color-secondary-accent)]"
           >
-            {label}
+            {t(labelKey)}
           </Link>
         ))}
       </nav>
@@ -51,7 +53,7 @@ export default function Header() {
           className="absolute top-full left-0 right-0 text-right flex flex-col p-4 pr-10 space-y-4 md:hidden z-50 shadow-md"
           style={{ backgroundColor: "var(--color-foreground)" }}
         >
-          {navLinks.map(({ href, label }) => (
+          {navLinks.map(({ href, labelKey }) => (
             <Link
               key={href}
               href={href}
@@ -59,7 +61,7 @@ export default function Header() {
               className="hover:underline"
               style={{ color: "var(--color-accent)" }}
             >
-              {label}
+              {t(labelKey)}
             </Link>
           ))}
         </nav>
