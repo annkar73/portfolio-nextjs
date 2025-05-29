@@ -8,5 +8,16 @@
       "projects": "Projekt",
       "contact": "Kontakt"
     }
+  },
+  
+  "hero": {
+    "name": "Anna Karlsen",
+    "title": "< Front End Developer />",
+    "quote": "När du väl slutar lära dig börjar du dö, sa Albert Einstein.",
+    "text1": "Riktigt så illa är det väl inte? Jag tror däremot att det är viktigt att ständigt utvecklas och lära sig nya saker."
   }
+
+
+  
 }
+
