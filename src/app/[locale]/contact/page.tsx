@@ -5,6 +5,7 @@ export default function OmPage() {
       <h1 className="text-3xl font-bold mb-4">Kontakt</h1>
       <p>Här kan du lägga till kontaktuppgifter.</p>
       <p>Eventuellt ett kontaktformulär med EmailJS om jag får till det snyggt</p>
+      <p>kolla hur jag gör det snyggt så fort deploy funkar som det ska</p>
     </main>
   );
 }
