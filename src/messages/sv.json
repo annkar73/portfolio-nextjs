@@ -37,12 +37,14 @@
   },
 
   "projects": {
-    "todo": {
-      "title": "Att göra-app",
+    "title": "Projekt",
+    "intro": "Här är några av de projekt jag har arbetat med under min utbildning. Varje projekt har gett mig möjlighet att tillämpa mina kunskaper och färdigheter inom webbutveckling.",
+    "memory": {
+      "title": "Word Match-spel",
       "description": "En enkel att göra-app byggd med React och TypeScript."
     },
-    "memory": {
-      "title": "Memory-spel",
+    "flip": {
+      "title": "Flip-spel",
       "description": "Ett memory-spel med ljud och tema."
     }
   }

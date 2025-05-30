@@ -7,12 +7,12 @@ export interface IProject {
 
 export const projects: IProject[] = [
   {
-    id: "todo",
+    id: "memory",
     image: "",
     url: "https://github.com/dittrepo/todo",
   },
   {
-    id: "memory",
+    id: "flip",
     image: "",
     url: "https://github.com/dittrepo/memory",
   },

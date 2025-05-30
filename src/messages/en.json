@@ -35,12 +35,14 @@
   },
 
   "projects": {
-    "todo": {
-      "title": "Todo App",
+    "title": "Projects",
+    "intro": "Here are some of the projects I have worked on during my education. Each project has given me the opportunity to apply my knowledge and skills in web development.",
+    "memory": {
+      "title": "Word Match Game",
       "description": "A simple todo app built with React and TypeScript."
     },
-    "memory": {
-      "title": "Memory Game",
+    "flip": {
+      "title": "Flip Game",
       "description": "A memory game with sound and theme."
     }
   }

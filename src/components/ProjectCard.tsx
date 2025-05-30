@@ -1,3 +1,5 @@
+'use client';
+
 import Image from "next/image";
 import { IProject } from "@/data/projectData";
 import Button from "@/components/Button";
@@ -26,7 +28,7 @@ export default function ProjectCard({ project, reverse = false }: Props) {
       <div className="w-full md:w-1/2">
         <Image
           src={imageSrc}
-          alt={t(`projects.${project.id}.title`)}
+          alt={t(`projects.title`)}
           width={800}
           height={500}
           className="w-full h-full object-cover"
