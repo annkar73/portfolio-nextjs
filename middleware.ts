@@ -6,32 +6,33 @@ const locales = ['sv', 'en'];
 const defaultLocale = 'sv';
 
 function getLocale(request: NextRequest): string {
-  const negotiatorHeaders: Record<string, string> = {};
-
+  const headers: Record<string, string> = {};
   request.headers.forEach((value, key) => {
-    negotiatorHeaders[key] = value;
+    headers[key] = value;
   });
 
-  const languages = new Negotiator({ headers: negotiatorHeaders }).languages();
+  const languages = new Negotiator({ headers }).languages();
   return matchLocale(languages, locales, defaultLocale);
 }
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // Ignore paths like /_next and /api
+  // Hoppa över interna resurser och redan lokaliserade paths
   if (
     pathname.startsWith('/_next') ||
     pathname.startsWith('/api') ||
+    pathname.startsWith('/favicon.ico') ||
     locales.some((locale) => pathname.startsWith(`/${locale}`))
   ) {
     return NextResponse.next();
   }
 
   const locale = getLocale(request);
+  const url = request.nextUrl.clone();
+  url.pathname = `/${locale}${pathname}`;
 
-  // Redirect to locale-prefixed path
-  return NextResponse.redirect(new URL(`/${locale}${pathname}`, request.url));
+  return NextResponse.redirect(url);
 }
 
 export const config = {
