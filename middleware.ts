@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { match as matchLocale } from '@formatjs/intl-localematcher';
 import Negotiator from 'negotiator';
+import { match as matchLocale } from '@formatjs/intl-localematcher';
 
 const locales = ['sv', 'en'];
 const defaultLocale = 'sv';
@@ -18,7 +18,7 @@ function getLocale(request: NextRequest): string {
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // Hoppa över interna resurser och redan lokaliserade paths
+  // Låt Next hantera interna requests och språk-prefix
   if (
     pathname.startsWith('/_next') ||
     pathname.startsWith('/api') ||
@@ -31,7 +31,6 @@ export function middleware(request: NextRequest) {
   const locale = getLocale(request);
   const url = request.nextUrl.clone();
   url.pathname = `/${locale}${pathname}`;
-
   return NextResponse.redirect(url);
 }
 
