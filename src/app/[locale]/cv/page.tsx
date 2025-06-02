@@ -50,12 +50,12 @@ export default function CVPage() {
         <h2 className="text-2xl font-semibold mb-4 border-b-2 border-[var(--color-secondary-accent)] pb-1">
           {t("experience.heading")}
         </h2>
-        {experience.map((exp, index) => (
+        {experience.slice().reverse().map((exp, index) => (
           <div key={index} className="mb-4">
             <h3 className="font-semibold text-lg">{exp.role}</h3>
             <p className="italic text-gray-700">{exp.period}</p>
             <ul className="list-disc list-inside">
-              {exp.details.slice().reverse().map((detail, i) => (
+              {exp.details.map((detail, i) => (
                 <li key={i}>{detail}</li>
               ))}
             </ul>

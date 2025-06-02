@@ -57,19 +57,19 @@
           "degree": "Front End Developer",
           "school": "Medieinstitutet",
           "period": "2023-2025",
-          "details": "Focus on web development and  interaction design"
+          "details": ["Focus on web development and  interaction design"]
         },
         {
           "degree": "Welder",
           "school": "Komvux/Astar",
           "period": "2014-2014",
-          "details": "MMA, MIG/MAG, TIG, and gas welding"
+          "details": ["MMA, MIG/MAG, TIG, and gas welding"]
         },
         {
           "degree": "Gymnasieexamen",
           "school": "Farsta Gymnasium",
           "period": "1989-1992",
-          "details": "Humanistisk linje med inrikting språk och konst"
+          "details": ["Humanistisk linje med inrikting språk och konst"]
         }
       ]
     },
