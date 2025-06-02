@@ -76,9 +76,9 @@ export default function CVPage() {
 
       <button
         onClick={() => window.print()}
-        className="mt-6 px-4 py-2 bg-[var(--color-secondary-accent)] text-white rounded hover:opacity-90 print:hidden"
+        className="mt-6 px-4 py-2 border-2 border-[var(--color-foreground)] text-[var(--color-foreground)] font-semibold rounded-none hover:bg-[var(--color-foreground)] hover:text-white print:hidden"
       >
-        Skriv ut / Spara som PDF
+        Skriv ut / Spara
       </button>
     </main>
   );
