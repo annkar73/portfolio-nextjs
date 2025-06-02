@@ -42,15 +42,28 @@
 
   "projects": {
     "title": "Projekt",
-    "intro": "Här är några av de projekt jag har arbetat med under min utbildning. Varje projekt har gett mig möjlighet att tillämpa mina kunskaper och färdigheter inom webbutveckling.",
-    "memory": {
-      "title": "Word Match-spel",
-      "description": "En enkel att göra-app byggd med React och TypeScript."
+    "intro": "Här är några av de projekt jag har arbetat med i anslutning till min utbildning. Varje projekt har gett mig möjlighet att tillämpa mina kunskaper och färdigheter inom webbutveckling.",
+    "wordmatch": {
+      "title": "Word Match",
+      "description": "Mitt examensarbete. En spel av memorytyp men matchning mellan bild och ord för att inspirera mindre barn att lära sig läsa och skriva genom lek. Appen är byggd med React och TypeScript."
     },
-    "flip": {
-      "title": "Flip-spel",
-      "description": "Ett memory-spel med ljud och tema."
+    "memory": {
+      "title": "Memory",
+      "description": "Ett enkelt memory-spel byggt med Vue."
+    },
+    "advent": {
+      "title": "Adventskalender",
+      "description": "En adventskalender med luckor att öppna från 1 december som innehåller tips på recept och pyssel. Appen är byggd med Vite, React och TypeScript."
+    },
+    "numbers": {
+      "title": "Nummergenerator",
+      "description": "En nummergenerator för att slumpa fram rader till spel som Lotto, Keno m.fl. Appen är byggd med Vite, Vue och TypeScript."
+    },
+    "christmas": {
+      "title": "Julkort",
+      "description": "Ett digitalt julkort med olika spel, recept målarbilder mm och varierande bakgrundsbilder som en liten julhälsning till familj, vänner och bekanta från mig och min son. Appen är byggd med Vite, React och Typescript."
     }
+    
   },
 "cv": {
     "name": "Anna Karlsen",

@@ -40,14 +40,26 @@
 
   "projects": {
     "title": "Projects",
-    "intro": "Here are some of the projects I have worked on during my education. Each project has given me the opportunity to apply my knowledge and skills in web development.",
-    "memory": {
-      "title": "Word Match Game",
-      "description": "A simple todo app built with React and TypeScript."
+    "intro": "Here are some of the projects I have worked on in connection to my education. Each project has given me the opportunity to apply my knowledge and skills in web development.",
+    "wordmatch": {
+      "title": "Word Match",
+      "description": "My thesis project. A memo style game but to match images with words as a means to inspire small children to learn how to read and write through play. The app was built with React and TypeScript."
     },
-    "flip": {
-      "title": "Flip Game",
-      "description": "A memory game with sound and theme."
+    "memory": {
+      "title": "Memory",
+      "description": "A simple memory game built in Vue."
+    },
+    "advent": {
+      "title": "Advent Calendar",
+      "description": "An advent calendar with doors to open from December 1st that contains tips on recipes and crafts. The app is built with Vite, React and TypeScript."
+    },
+    "numbers": {
+      "title": "Number generator",
+      "description": "A number generator to randomly generate lines for games like Lotto, Keno, etc. The app is built with Vite, Vue and TypeScript."
+    },
+    "christmas": {
+      "title": "Christmas Card",
+      "description": "A digital Christmas card with various games, recipes, coloring pages, etc. and varying background images as a little Christmas greeting to family, friends and acquaintances from me and my son. The app is built with Vite, React and Typescript."
     }
   },
  "cv": {
