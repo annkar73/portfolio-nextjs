@@ -11,7 +11,7 @@ export default function EduContent() {
       <p>{t("edu.intro")}</p>
 
       <h2 className="text-2xl font-semibold mb-4 mt-4 border-b-2 border-[var(--color-secondary-accent)]">{t("edu.courses")}</h2>
-      <p>{t("edu.aboutLiaAndThesis")}</p>
+      <p>{t("edu.coursesDescription")}</p>
 
       <h2 className="text-2xl font-semibold mb-4 mt-4 border-b-2 border-[var(--color-secondary-accent)]">{t("edu.lia")}</h2>
       <p>{t("edu.liaDescription")}</p>
@@ -26,9 +26,13 @@ export default function EduContent() {
 
       <h2 className="text-2xl font-semibold mb-4 mt-4 border-b-2 border-[var(--color-secondary-accent)]">{t("edu.thesis")}</h2>
       <p>{t("edu.thesisDesc")}</p>
+      <p>{t("edu.thesisDesc2")}</p>
+      <p>{t("edu.thesisDesc3")}</p>
+      <p>{t("edu.thesisDesc4")}</p>
 
       <h2 className="text-2xl font-semibold mb-4 mt-4 border-b-2 border-[var(--color-secondary-accent)]">{t("edu.certificates")}</h2>
       <p>{t("edu.certificatesDesc")}</p>
+      <p>{t("edu.certificatesDesc2")}</p>
     </>
   );
 }
