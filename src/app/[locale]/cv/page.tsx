@@ -29,6 +29,7 @@ export default function CVPage() {
         <h1 className="text-4xl font-bold mb-2">{t("name")}</h1>
         <p className="text-lg text-gray-700 mb-1">{t("title")}</p>
         <p className="text-gray-600 mb-4">{t("contact")}</p>
+        <p className="text-gray-600 mb-4">{t("linkedin")}</p>
       </section>
 
       <section className="mb-8">
