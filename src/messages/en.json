@@ -18,7 +18,8 @@
   "contactHeading": "Contact",
   "contactText": "You can reach me by email, or visit the contact page to send a message.",
   "contactLink": "Go to the contact page",
-  "readMore": "Read more",
+  "cvReadMore": "Go to CV",
+  "eduReadMore": "Read more about the education",
   "seeAllProjects": "See all projects"
 },
   "hero": {

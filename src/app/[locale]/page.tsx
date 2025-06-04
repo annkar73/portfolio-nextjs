@@ -1,12 +1,13 @@
 "use client";
 
 import Hero from "@/components/Hero";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 import ProjectCarousel from "@/components/ProjectCarousel";
 
 export default function Home() {
   const t = useTranslations("home");
+  const locale = useLocale();
 
   return (
     <>
@@ -19,8 +20,8 @@ export default function Home() {
             <h2 className="text-xl font-semibold mb-2">{t("cvHeading")}</h2>
             <p>{t("cvIntro")}</p>
             <div className="mt-2">
-              <Link href="/cv" className="underline mr-4">
-                {t("readMore")}
+              <Link href={`/${locale}/cv`} className="underline mr-4">
+                {t("cvReadMore")}
               </Link>
               <a
                 href="https://linkedin.com/in/annakarlsen"
@@ -41,8 +42,8 @@ export default function Home() {
               {t("educationHeading")}
             </h2>
             <p>{t("educationIntro")}</p>
-            <Link href="/education" className="underline">
-              {t("readMore")}
+            <Link href={`${locale}/edu`} className="underline">
+              {t("eduReadMore")}
             </Link>
           </div>
         </div>
@@ -54,7 +55,7 @@ export default function Home() {
               {t("projectCarouselHeading")}
             </h2>
             <ProjectCarousel />
-            <Link href="/projects" className="underline">
+            <Link href={`${locale}/projects`} className="underline">
               {t("seeAllProjects")}
             </Link>
           </div>
@@ -67,7 +68,7 @@ export default function Home() {
               {t("contactHeading")}
             </h2>
             <p>{t("contactText")}</p>
-            <Link href="/contact" className="underline">
+            <Link href={`${locale}/contact`} className="underline">
               {t("contactLink")}
             </Link>
           </div>

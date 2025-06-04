@@ -18,7 +18,8 @@
   "contactHeading": "Kontakt",
   "contactText": "Du kan nå mig via e-post, eller besöka kontaktsidan för att skicka ett meddelande.",
   "contactLink": "Gå till kontaktsidan",
-  "readMore": "Läs mer",
+  "cvReadMore": "Gå till CV",
+  "eduReadMore": "Läs mer om utbildningen",
   "seeAllProjects": "Se alla projekt"
 },
 
@@ -80,7 +81,7 @@
       "description": "Ett digitalt födelsedagskort att skicka när man inser att man har glömt att köpa både kort och frimärken. Appen är byggd med Next.js, TypeScript och Tailwind CSS."
     },
     "endless": {
-      "title": "Nedräkning utan slut",
+      "title": "Oändlig Nedräkning",
       "description": "Har du lovat att få någonting klart inom en viss tid? Visar det sig att det inte kommer funka? Här är en nedräkning utan slut som förlänger din deadline eftersom den aldrig kommer hela vägen ner till noll. Appen är byggd med Vue."
     }
     
