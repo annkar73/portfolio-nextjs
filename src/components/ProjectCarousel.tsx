@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import Image from "next/image";
 import { useEffect, useRef } from "react";
@@ -15,7 +15,7 @@ export default function ProjectCarousel() {
     const carousel = carouselRef.current;
     if (!carousel) return;
 
-    const scrollSpeed = 3;
+    const scrollSpeed = 2;
     let animationFrame: number;
 
     const animate = () => {
@@ -56,6 +56,7 @@ export default function ProjectCarousel() {
                 src={project.image}
                 alt={project.id}
                 fill
+                sizes="(max-width: 640px) 100vw, (min-width: 641px) 50vw, (min-width: 1024px) 33vw"
                 style={{ objectFit: "cover" }}
               />
             </div>

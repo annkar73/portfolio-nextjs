@@ -11,7 +11,7 @@
   },
   "home": {
   "educationHeading": "My Education",
-  "educationIntro": "I'm studying Front End Development at Medieinstitutet, focusing on modern technologies like React, TypeScript, and UX design.",
+  "educationIntro": "I have been studying Front End Development at Medieinstitutet, focusing on modern technologies like React, TypeScript, and UX design.",
   "cvHeading": "My Background",
   "cvIntro": "I have a diverse background with a focus on problem solving, structure, and creativity.",
   "projectCarouselHeading": "A selection of my projects",
@@ -20,7 +20,7 @@
   "contactLink": "Go to the contact page",
   "cvReadMore": "Go to CV",
   "eduReadMore": "Read more about the education",
-  "seeAllProjects": "See all projects"
+  "seeAllProjects": "Go to the projects page"
 },
   "hero": {
     "name": "Anna Karlsen",

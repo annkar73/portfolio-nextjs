@@ -11,7 +11,7 @@
   },
   "home": {
   "educationHeading": "Min utbildning",
-  "educationIntro": "Jag studerar Front End Development på Medieinstitutet, med fokus på moderna tekniker som React, TypeScript och UX-design.",
+  "educationIntro": "Jag har studerat Front End Development på Medieinstitutet, med fokus på moderna tekniker som React, TypeScript och UX-design.",
   "cvHeading": "Min bakgrund",
   "cvIntro": "Jag har en varierad bakgrund med fokus på problemlösning, struktur och kreativitet.",
   "projectCarouselHeading": "Ett urval av mina projekt",
@@ -20,7 +20,7 @@
   "contactLink": "Gå till kontaktsidan",
   "cvReadMore": "Gå till CV",
   "eduReadMore": "Läs mer om utbildningen",
-  "seeAllProjects": "Se alla projekt"
+  "seeAllProjects": "Gå till projektsidan"
 },
 
   "hero": {
