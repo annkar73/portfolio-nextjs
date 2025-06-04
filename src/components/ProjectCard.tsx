@@ -57,17 +57,29 @@ export default function ProjectCard({ project, reverse = false }: Props) {
         </h2>
         <p className="mb-4">{t(`projects.${project.id}.description`)}</p>
         {project.url && (
-          <Button variant="default" size="default" asChild className={undefined}>
+          <Button variant="default" size="default" asChild className={undefined}> 
             <a
               href={project.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold"
+              className="font-semibold mt-4"
             >
-              Läs mer
+              Online: {t(`projects.${project.id}.title`)}
             </a>
+            
           </Button>
-        )}
+ )}
+         {project.url && (
+
+          <Button variant="default" size="default" asChild className={undefined}>
+            <a
+              href={project.github}
+              className="font-semibold mt-2"
+            >
+              GitHub: {t(`projects.${project.id}.title`)}
+            </a>    
+          </Button>
+         )}
       </div>
     </div>
   );
