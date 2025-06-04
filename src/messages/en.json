@@ -9,6 +9,18 @@
       "contact": "Contact"
     }
   },
+  "home": {
+  "educationHeading": "My Education",
+  "educationIntro": "I'm studying Front End Development at Medieinstitutet, focusing on modern technologies like React, TypeScript, and UX design.",
+  "cvHeading": "My Background",
+  "cvIntro": "I have a diverse background with a focus on problem solving, structure, and creativity.",
+  "projectCarouselHeading": "A selection of my projects",
+  "contactHeading": "Contact",
+  "contactText": "You can reach me by email, or visit the contact page to send a message.",
+  "contactLink": "Go to the contact page",
+  "readMore": "Read more",
+  "seeAllProjects": "See all projects"
+},
   "hero": {
     "name": "Anna Karlsen",
     "title": "< Front End Developer />",
@@ -72,8 +84,8 @@
   },
  "cv": {
     "name": "Anna Karlsen",
-    "title": "Front End Developer",
-    "contact": "karlsen1973@outlook.com | Stockholm, Sweden",
+    "title": "Front End Developer | Stockholm, Sweden",
+    "contact": "karlsen1973@outlook.com",
     "linkedin": "https://www.linkedin.com/in/annakarlsen/",
 
     "education": {

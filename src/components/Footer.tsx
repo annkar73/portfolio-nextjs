@@ -10,21 +10,7 @@ const Footer = () => {
         <p className="text-sm">
             &copy; {new Date().getFullYear()} Anna Karlsen. All rights reserved.
         </p>
-        <p className="text-sm">
-            Made with{" "}
-            <span role="img" aria-label="heart">
-            ❤️
-            </span>{" "}
-            using{" "}
-            <a
-            href="https://nextjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[var(--color-accent)] w-full mb-0 hover:underline"
-            >
-            Next.js
-            </a>
-        </p>
+       
         </footer>
     );
 }
