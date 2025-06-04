@@ -62,6 +62,14 @@
     "christmas": {
       "title": "Julkort",
       "description": "Ett digitalt julkort med olika spel, recept målarbilder mm och varierande bakgrundsbilder som en liten julhälsning till familj, vänner och bekanta från mig och min son. Appen är byggd med Vite, React och Typescript."
+    },
+    "birthday": {
+      "title": "Födelsedagskort",
+      "description": "Ett digitalt födelsedagskort att skicka när man inser att man har glömt att köpa både kort och frimärken. Appen är byggd med Next.js, TypeScript och Tailwind CSS."
+    },
+    "endless": {
+      "title": "Nedräkning utan slut",
+      "description": "Har du lovat att få någonting klart inom en viss tid? Visar det sig att det inte kommer funka? Här är en nedräkning utan slut som förlänger din deadline eftersom den aldrig kommer hela vägen ner till noll. Appen är byggd med Vue."
     }
     
   },

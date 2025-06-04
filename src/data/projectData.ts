@@ -30,6 +30,16 @@ export const projects: IProject[] = [
     id: "christmas",
     image: "/project-images/christmas_card.png",
     url: "https://karlsen-christmas.netlify.app/"
+  },
+  {
+    id: "birthday",
+    image: "/project-images/happy_birthday.png",
+    url: "https://karlsen-birthday.netlify.app/"
+  },
+  {
+    id: "endless",
+    image: "/project-images/endless_counter.png",
+    url: "https://annkar73.github.io/vue-endless-countdown/"
   }
   // Fyll på med fler projekt
 ];

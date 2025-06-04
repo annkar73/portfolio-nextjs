@@ -60,6 +60,14 @@
     "christmas": {
       "title": "Christmas Card",
       "description": "A digital Christmas card with various games, recipes, coloring pages, etc. and varying background images as a little Christmas greeting to family, friends and acquaintances from me and my son. The app is built with Vite, React and Typescript."
+    },
+    "birthday": {
+      "title": "Birthday Card",
+      "description": "A digital birthday card to send when you realize you have forgotten to buy both a card and stamps. The app is built with Next.js, TypeScript and Tailwind CSS."
+    },
+    "endless": {
+      "title": "Endless Countdown",
+      "description": "Have you promised to get something done within a certain time? Does it turn out that it won't work? Here is a countdown without end that extends your deadline since it never reaches zero. The app is built with Vue."
     }
   },
  "cv": {
