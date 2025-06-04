@@ -12,10 +12,10 @@ export default function Home() {
     <>
       <Hero />
 
-      <main className="p-6 text-[var(--color-foreground)] bg-white max-w-5xl mx-auto space-y-8">
+      <main className="p-6 text-[var(--color-foreground)] bg-white max-w-5xl mx-auto space-y-10">
         {/* Bakgrund + CV */}
-        <div className="w-full bg-[var(--color-foreground)] text-white border-l-4 border-[var(--color-accent)] p-6 pl-10">
-          <div className="max-w-[75%] text-left">
+        <div className="w-full bg-[var(--color-foreground)] text-white border-l-4 border-b-3 border-[var(--color-accent)] p-6 pl-10">
+          <div className="max-w-full md:max-w-[75%] text-left">
             <h2 className="text-xl font-semibold mb-2">{t("cvHeading")}</h2>
             <p>{t("cvIntro")}</p>
             <div className="mt-2">
@@ -35,8 +35,8 @@ export default function Home() {
         </div>
 
         {/* About education */}
-        <div className="w-full bg-[var(--color-foreground)] text-white border-r-4 border-[var(--color-accent)] p-6 pr-10">
-          <div className="max-w-[75%] ml-auto text-right">
+        <div className="w-full bg-[var(--color-foreground)] text-white border-l-4 border-b-3 border-[var(--color-accent)] p-6 pr-10">
+          <div className="max-w-full md:max-w-[80%] ml-auto text-left">
             <h2 className="text-xl font-semibold mb-2">
               {t("educationHeading")}
             </h2>
@@ -61,8 +61,8 @@ export default function Home() {
         </div>
 
         {/* Contact info */}
-        <div className="w-full bg-[var(--color-foreground)] text-white border-r-4 border-[var(--color-accent)] p-6">
-          <div className="ml-auto text-right max-w-[75%]">
+        <div className="w-full bg-[var(--color-foreground)] text-white border-l-4 border-b-3 border-[var(--color-accent)] p-6">
+          <div className="ml-auto text-left max-w-full md:max-w-[80%]">
             <h2 className="text-xl font-semibold mb-2">
               {t("contactHeading")}
             </h2>

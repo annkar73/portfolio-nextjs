@@ -1,7 +1,7 @@
 // app/contact/page.tsx
 export default function OmPage() {
   return (
-    <main className="p-6">
+    <main className="max-w-5xl mx-auto p-6 bg-white text-[var(--color-foreground)]">
       <h1 className="text-3xl font-bold mb-4">Kontakt</h1>
       <p>Här kan du lägga till kontaktuppgifter.</p>
       <p>Eventuellt ett kontaktformulär med EmailJS om jag får till det snyggt</p>
