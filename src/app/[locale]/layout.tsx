@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import IntlProvider from "@/components/IntlProvider"; // 👈 använd din egna
+import IntlProvider from "@/components/IntlProvider"; // 👈 egen provider
 import "@/app/globals.css";
 
 const geistSans = Geist({
@@ -28,16 +28,8 @@ interface RootLayoutProps {
   }>;
 }
 
-export default async function RootLayout(props: RootLayoutProps) {
-  const params = await props.params;
-
-  const {
-    locale
-  } = params;
-
-  const {
-    children
-  } = props;
+export default async function RootLayout({ children, params }: RootLayoutProps) {
+  const { locale } = await params;
 
   return (
     <html lang={locale} suppressHydrationWarning>
