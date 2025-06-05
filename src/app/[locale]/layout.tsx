@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import IntlProvider from "@/components/IntlProvider"; // 👈 egen provider
+import IntlProvider from "@/components/IntlProvider"; // 👈 din egen
 import "@/app/globals.css";
 
 const geistSans = Geist({
@@ -23,18 +23,21 @@ export const metadata: Metadata = {
 
 interface RootLayoutProps {
   children: React.ReactNode;
-  params: Promise<{
+  params: {
     locale: string;
-  }>;
+  };
 }
 
 export default async function RootLayout({ children, params }: RootLayoutProps) {
-  const { locale } = await params;
+  const { locale } = params;
+
+  // 👇 Ladda rätt översättningsfil (t.ex. sv.json, en.json etc)
+  const messages = (await import(`../../messages/${locale}.json`)).default;
 
   return (
     <html lang={locale} suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <IntlProvider locale={locale}>
+        <IntlProvider locale={locale} messages={messages}>
           <Header />
           {children}
           <Footer />
