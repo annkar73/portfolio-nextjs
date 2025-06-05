@@ -1,4 +1,3 @@
-// components/IntlProvider.tsx
 'use client';
 
 import { NextIntlClientProvider } from 'next-intl';
@@ -9,8 +8,11 @@ interface Props {
   children: React.ReactNode;
 }
 
+// Du kan definiera en grov typ för messages här:
+type Messages = Record<string, string | Record<string, string>>;
+
 export default function IntlProvider({ locale, children }: Props) {
-  const [messages, setMessages] = useState<any | null>(null);
+  const [messages, setMessages] = useState<Messages | null>(null);
 
   useEffect(() => {
     async function loadMessages() {
@@ -20,7 +22,7 @@ export default function IntlProvider({ locale, children }: Props) {
     loadMessages();
   }, [locale]);
 
-  if (!messages) return null; // eller en loader
+  if (!messages) return null; // Visa gärna en loader här
 
   return (
     <NextIntlClientProvider messages={messages} locale={locale}>
