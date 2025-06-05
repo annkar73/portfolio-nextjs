@@ -4,12 +4,13 @@ import Image from "next/image";
 import { useEffect, useRef } from "react";
 import { projects } from "@/data/projectData";
 import { useRouter } from "next/navigation";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 export default function ProjectCarousel() {
   const t = useTranslations();
   const router = useRouter();
   const carouselRef = useRef<HTMLDivElement>(null);
+  const locale = useLocale();
 
   useEffect(() => {
     const carousel = carouselRef.current;
@@ -48,7 +49,7 @@ export default function ProjectCarousel() {
           <div
             key={index}
             className="flex-shrink-0 px-2 pt-2 pb-4 w-full sm:w-1/2 lg:w-1/3"
-            onClick={() => router.push("/projects")}
+            onClick={() => router.push(`${locale}/projects`)}
             style={{ pointerEvents: "auto", cursor: "pointer" }}
           >
             <div className="relative w-full h-40 border-b-2 border-[var(--color-accent)] overflow-hidden rounded-none">

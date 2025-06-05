@@ -10,18 +10,18 @@
     }
   },
   "home": {
-  "educationHeading": "Min utbildning",
-  "educationIntro": "Jag har studerat Front End Development på Medieinstitutet, med fokus på moderna tekniker som React, TypeScript och UX-design.",
-  "cvHeading": "Min bakgrund",
-  "cvIntro": "Jag har en varierad bakgrund med fokus på problemlösning, struktur och kreativitet.",
-  "projectCarouselHeading": "Ett urval av mina projekt",
-  "contactHeading": "Kontakt",
-  "contactText": "Du kan nå mig via e-post, eller besöka kontaktsidan för att skicka ett meddelande.",
-  "contactLink": "Gå till kontaktsidan",
-  "cvReadMore": "Gå till CV",
-  "eduReadMore": "Läs mer om utbildningen",
-  "seeAllProjects": "Gå till projektsidan"
-},
+    "educationHeading": "Min utbildning",
+    "educationIntro": "Jag har studerat Front End Development på Medieinstitutet, med fokus på moderna tekniker som React, TypeScript och UX-design.",
+    "cvHeading": "Min bakgrund",
+    "cvIntro": "Jag har en varierad bakgrund med fokus på problemlösning, struktur och kreativitet.",
+    "projectCarouselHeading": "Ett urval av mina projekt",
+    "contactHeading": "Kontakt",
+    "contactText": "Du kan nå mig via e-post, eller besöka kontaktsidan för att skicka ett meddelande.",
+    "contactLink": "Gå till kontaktsidan",
+    "cvReadMore": "Gå till CV",
+    "eduReadMore": "Läs mer om utbildningen",
+    "seeAllProjects": "Gå till projektsidan"
+  },
 
   "hero": {
     "name": "Anna Karlsen",
@@ -50,7 +50,7 @@
     "thesisDesc4": "När jag ser tillbaka på mitt examensarbete är jag stolt över det jag har åstadkommit och de färdigheter jag har utvecklat under utbildningen. Det har varit en fantastisk resa som har förberett mig väl för min framtida karriär som Front End Developer.",
     "certificates": "Examensbevis och betyg",
     "certificatesDesc": "Efter avslutad utbildning har jag fått ett examensbevis som intygar min kompetens som Front End Developer. Detta bevis innehåller information om de kurser jag har genomfört, mina färdigheter och min prestation under utbildningen.",
-    "certificatesDesc2":"Dessutom har jag fått betyg för varje enskild kurs jag har genomfört, vilket är en viktig del av mitt CV och min professionella profil."
+    "certificatesDesc2": "Dessutom har jag fått betyg för varje enskild kurs jag har genomfört, vilket är en viktig del av mitt CV och min professionella profil."
   },
 
   "projects": {
@@ -84,9 +84,8 @@
       "title": "Oändlig Nedräkning",
       "description": "Har du lovat att få någonting klart inom en viss tid? Visar det sig att det inte kommer funka? Här är en nedräkning utan slut som förlänger din deadline eftersom den aldrig kommer hela vägen ner till noll. Appen är byggd med Vue."
     }
-    
   },
-"cv": {
+  "cv": {
     "name": "Anna Karlsen",
     "title": "Front End Developer | Stockholm, Sverige",
     "contact": "karlsen1973@outlook.com",
@@ -104,32 +103,42 @@
           "degree": "Data för ungdom",
           "school": "AMU",
           "period": "1993-1993",
-          "details": ["Desktop publishing med grunder i Page Maker och Corel Draw."]
+          "details": [
+            "Desktop publishing med grunder i Page Maker och Corel Draw."
+          ]
         },
         {
           "degree": "Teknikan",
           "school": "AMI",
           "period": "1995-1995",
-          "details": ["Grundläggande teknisk utbildning med fokus på unga tjejer. I utbildningen ingick grunderna i elektronik, mekaing och datorhantering."]
+          "details": [
+            "Grundläggande teknisk utbildning med fokus på unga tjejer. I utbildningen ingick grunderna i elektronik, mekaing och datorhantering."
+          ]
         },
         {
           "degree": "Webb- och informationsdesign",
           "school": "Webgesäll",
           "period": "1996-1997",
-          "details": ["Grundläggande utbildning i webdesign, html och bildhantering i Photoshop. Till viss del även projektledning då behovet uppstod i projektgruppen jag hörde till under utbildningen."]
+          "details": [
+            "Grundläggande utbildning i webdesign, html och bildhantering i Photoshop. Till viss del även projektledning då behovet uppstod i projektgruppen jag hörde till under utbildningen."
+          ]
         },
         {
           "degree": "Digital kommunikation och multimedia",
           "school": "Capital School of Multimedia",
           "period": "1997-1998",
-          "details": ["Multimediautbildning med inriktning Motion Graphics Design. Programvaror som ingick var Illustrator, Photoshop, After Effects och Première."]
+          "details": [
+            "Multimediautbildning med inriktning Motion Graphics Design. Programvaror som ingick var Illustrator, Photoshop, After Effects och Première."
+          ]
         },
         {
           "degree": "Företagsekonomi, Matematik, Engelska, Franska, Tyska samt religion",
           "school": "Komvux/NTI-skolan",
           "period": "2009-2010",
-          "details": ["Distansutbildning i Företagsekonomi A och B, Matematik A, B och C, Engelska B, Franska steg 1, Tyska steg 1 samt Religion A."]
-        },        
+          "details": [
+            "Distansutbildning i Företagsekonomi A och B, Matematik A, B och C, Engelska B, Franska steg 1, Tyska steg 1 samt Religion A."
+          ]
+        },
         {
           "degree": "Svetsare MMA/111",
           "school": "Komvux/Astar",
@@ -140,7 +149,9 @@
           "degree": "Front End Developer",
           "school": "Medieinstitutet",
           "period": "2023-2025",
-          "details": ["Fokus på webbutveckling och interaktionsdesign. I utbildningen ingick kurser i HTML, CSS/SCSS, JavaScript (grundkurs och fördjupning), API-utveckling, Agilt projektarbete, UX & Usability, grafiska verktyg för gränssnittsdesign, arbetsmetodik för utvecklare, testning, examensarbete och LIA-perioder för praktik. Därutöver även föreläsningar för att komplettera och ge förståelse och insikt i branschen."]
+          "details": [
+            "Fokus på webbutveckling och interaktionsdesign. I utbildningen ingick kurser i HTML, CSS/SCSS, JavaScript (grundkurs och fördjupning), API-utveckling, Agilt projektarbete, UX & Usability, grafiska verktyg för gränssnittsdesign, arbetsmetodik för utvecklare, testning, examensarbete och LIA-perioder för praktik. Därutöver även föreläsningar för att komplettera och ge förståelse och insikt i branschen."
+          ]
         }
       ]
     },
@@ -151,88 +162,106 @@
           "role": "Receptionist/Telefonist",
           "company": "Berner Sverige",
           "period": "1992 - 1993",
-          "details":
-            ["Bemanning av telefonväxel och reception"]
+          "details": ["Bemanning av telefonväxel och reception"]
         },
         {
           "role": "Ungdomspraktikant",
           "company": "Tavelmålare Bengt Elde",
           "period": "1993 - 1994",
-          "details":
-            ["Assistans i butiksateljé, hjälp med grundläggande arbete och mottaging av kunder. I arbetet ingick bland annat grundmålning, inslagning av paket, försäljning av konst och tryck mm."]
+          "details": [
+            "Assistans i butiksateljé, hjälp med grundläggande arbete och mottaging av kunder. I arbetet ingick bland annat grundmålning, inslagning av paket, försäljning av konst och tryck mm."
+          ]
         },
         {
           "role": "Väggmålning, arbetsplatsintroduktion",
           "company": "Berner Sverige",
           "period": "1994 - 1995",
-          "details":
-            ["Api, arbetsplatsintroduktion, i egen regi där jag målade väggmålningar med svenska motiv (midsommar, skärgård mm) i företagets kontorskorridorer och entré."]
+          "details": [
+            "Api, arbetsplatsintroduktion, i egen regi där jag målade väggmålningar med svenska motiv (midsommar, skärgård mm) i företagets kontorskorridorer och entré."
+          ]
         },
         {
           "role": "Telefonist/Kontorist",
           "company": "Söderkyl AB",
-          "period": "1995 - 1996", 
-          "details":
-            ["Ordermottagning för servicetjänster, kundkontakt och allmänna kontorssysslor"]
+          "period": "1995 - 1996",
+          "details": [
+            "Ordermottagning för servicetjänster, kundkontakt och allmänna kontorssysslor"
+          ]
         },
         {
           "role": "Kontorsassistent",
           "company": "Olsten Kontor och Administration",
-          "period": "1998 - 2000", 
-          "details":
-            ["Kontorsassistent hos kund. Varierande arbetsuppgifter beroende av kundens behov."]
+          "period": "1998 - 2000",
+          "details": [
+            "Kontorsassistent hos kund. Varierande arbetsuppgifter beroende av kundens behov."
+          ]
         },
         {
           "role": "Kontorsassistent",
           "company": "Två-Con AB",
-          "period": "2000 - 20003", 
-          "details":
-            ["Kontorsassistent hos kund. Kontering av fakturor och registrering av inköpsorder. Visst administrativt arbete samt sekreteraruppgifter."]
+          "period": "2000 - 20003",
+          "details": [
+            "Kontorsassistent hos kund. Kontering av fakturor och registrering av inköpsorder. Visst administrativt arbete samt sekreteraruppgifter."
+          ]
         },
         {
           "role": "Konsult kundservice",
           "company": "Clarex AB",
-          "period": "2005 - 2005", 
-          "details":
-            ["Arbete inom kundservice hos kund i telecombranschen."]
+          "period": "2005 - 2005",
+          "details": ["Arbete inom kundservice hos kund i telecombranschen."]
         },
         {
           "role": "Passkontrollant",
           "company": "Manpower AB",
-          "period": "2007 - 2007", 
-          "details":
-            ["Arbete som passkontrollant i Stockholms hamnar, på uppdrag av Gränspolisavdelningen i Stockholms Län. Kontroll av passhandlingar, in- och utresekontroll av viseringar och uppehållstillstånd."]
+          "period": "2007 - 2007",
+          "details": [
+            "Arbete som passkontrollant i Stockholms hamnar, på uppdrag av Gränspolisavdelningen i Stockholms Län. Kontroll av passhandlingar, in- och utresekontroll av viseringar och uppehållstillstånd."
+          ]
         },
         {
           "role": "Administratör/Kundtjänstmedarbetare",
           "company": "LFV Arlanda Parkering",
-          "period": "2008 - 2008", 
-          "details":
-            ["Administration av parkeringstillstånd för personal och resenärer, samt hantering av kundklagomål"]
+          "period": "2008 - 2008",
+          "details": [
+            "Administration av parkeringstillstånd för personal och resenärer, samt hantering av kundklagomål"
+          ]
         },
         {
           "role": "Receptionist/Telefonist",
           "company": "Domstolsverket",
-          "period": "2010 - 2013", 
-          "details":
-            ["Arbete i reception och telefonväxel på Norrtälje Tingsrätt."]
+          "period": "2010 - 2013",
+          "details": [
+            "Arbete i reception och telefonväxel på Norrtälje Tingsrätt."
+          ]
         },
         {
           "role": "Administrativ assistent",
           "company": "Norrtälje Kommun",
-          "period": "2018 - 2021", 
-          "details":
-            ["Administrativa sysslor inom olika delar av socialtjänstens verksamheter."]
+          "period": "2018 - 2021",
+          "details": [
+            "Administrativa sysslor inom olika delar av socialtjänstens verksamheter."
+          ]
         }
       ]
     },
     "skills": {
       "heading": "Kompetenser",
       "items": [
-        "HTML", "CSS", "JavaScript", "TypeScript", "Vue", "React",
-        "Angular", "Next.js", "Tailwind CSS", "Git & GitHub",
-        "Accessibility (a11y)", "Responsive Design", "Agile/Scrum",
-        "UX/UI Design", "Problemlösning"
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Angular",
+        "Next.js",
+        "Tailwind CSS",
+        "Git & GitHub",
+        "Accessibility (a11y)",
+        "Responsive Design",
+        "Agile/Scrum",
+        "UX/UI Design",
+        "Problemlösning"
       ]
     }
   }

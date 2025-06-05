@@ -1,14 +1,14 @@
 // src/messages/index.ts
-import sv from "./sv.json";
-import en from "./en.json";
+//import sv from "./sv.json";
+//import en from "./en.json";
 
-export function getMessages(locale: string) {
+export async function getMessages(locale: string) {
   switch (locale) {
     case "sv":
-      return sv;
+      return (await import("./sv.json")).default;
     case "en":
-      return en;
+      return (await import("./en.json")).default;
     default:
-      return sv; // fallback
+      return (await import("./sv.json")).default; // fallback
   }
 }

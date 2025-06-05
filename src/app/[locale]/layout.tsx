@@ -30,11 +30,10 @@ interface RootLayoutProps {
   };
 }
 
-export default async function RootLayout({ children, params }: RootLayoutProps) {
-  const { locale } = params;
+export default async function RootLayout({ children, params: { locale } }: RootLayoutProps) {
 
 
-  const messages = getMessages(locale);
+  const messages = await getMessages(locale);
   if (!messages) notFound();
 
   return (
