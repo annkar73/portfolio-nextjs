@@ -11,9 +11,9 @@
   },
   "home": {
     "educationHeading": "My Education",
-    "educationIntro": "I have been studying Front End Development at Medieinstitutet, focusing on modern technologies like React, TypeScript, and UX design.",
-    "cvHeading": "My Background",
-    "cvIntro": "I have a diverse background with a focus on problem solving, structure, and creativity.",
+    "educationIntro": "I have been studying Front End Development at Medieinstitutet, focusing on modern technologies like React, TypeScript, and UX design. It is a comprehensive education that has provided me with a solid foundation in web development and interaction design. The education has also included practical internship periods where I have been able to apply my knowledge in real projects.",
+    "cvHeading": "About Me",
+    "cvIntro": "I have a diverse background with a focus on problem solving, structure, and creativity. I have worked in various fields, including administration and customer service, which has given me a broad perspective on work processes and collaboration in many different ways.",
     "projectCarouselHeading": "A selection of my projects",
     "contactHeading": "Contact",
     "contactText": "You can reach me by email, or visit the contact page to send a message.",

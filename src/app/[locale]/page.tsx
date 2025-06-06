@@ -17,19 +17,19 @@ export default function Home() {
         {/* Bakgrund + CV */}
         <div className="w-full bg-[var(--color-foreground)] text-white border-l-4 border-b-3 border-[var(--color-accent)] p-6 pl-10">
           <div className="max-w-full md:max-w-[75%]">
-            <h2 className="text-xl font-semibold mb-2">{t("cvHeading")}</h2>
+            <h2 className="text-xl font-semibold mb-2 text-[var(--color-accent)]">{t("cvHeading")}</h2>
             <p className="pb-6">{t("cvIntro")}</p>
-            <div className="pb-2">
-              <Link href={`/${locale}/cv`} className="underline mr-4 text-[var(--color-accent)]">
+            <div className="pb-2 font-semibold">
+              <Link href={`/${locale}/cv`} className="hover:underline mr-4 text-[var(--color-accent)]">
                 {t("cvReadMore")}
               </Link>
               </div>
-              <div className="underline mr-4 text-[var(--color-accent)]">
+              <div className="mr-4 text-[var(--color-accent)] font-semibold">
               <a
                 href="https://linkedin.com/in/annakarlsen"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline"
+                className="hover:underline"
               >
                 LinkedIn
               </a>
@@ -40,11 +40,11 @@ export default function Home() {
         {/* About education */}
         <div className="w-full bg-[var(--color-foreground)] text-white border-l-4 border-b-3 border-[var(--color-accent)] p-6 pl-10">
           <div className="max-w-full md:max-w-[80%]">
-            <h2 className="text-xl font-semibold mb-2">
+            <h2 className="text-xl font-semibold mb-2 text-[var(--color-accent)]">
               {t("educationHeading")}
             </h2>
             <p className="pb-6">{t("educationIntro")}</p>
-            <Link href={`${locale}/edu`} className="underline text-[var(--color-accent)]">
+            <Link href={`${locale}/edu`} className="hover:underline text-[var(--color-accent)] font-semibold">
               {t("eduReadMore")}
             </Link>
           </div>
@@ -57,7 +57,7 @@ export default function Home() {
               {t("projectCarouselHeading")}
             </h2>
             <ProjectCarousel />
-            <Link href={`${locale}/projects`} className="underline">
+            <Link href={`${locale}/projects`} className="hover:underline font-semibold">
               {t("seeAllProjects")}
             </Link>
           </div>
@@ -66,11 +66,11 @@ export default function Home() {
         {/* Contact info */}
         <div className="w-full bg-[var(--color-foreground)] text-white border-l-4 border-b-3 border-[var(--color-accent)] p-6 pl-10">
           <div className="max-w-full md:max-w-[80%]">
-            <h2 className="text-xl font-semibold mb-2">
+            <h2 className="text-xl font-semibold mb-2  text-[var(--color-accent)]">
               {t("contactHeading")}
             </h2>
             <p className="pb-6">{t("contactText")}</p>
-            <Link href={`${locale}/contact`} className="underline text-[var(--color-accent)]">
+            <Link href={`${locale}/contact`} className="hover:underline text-[var(--color-accent)] font-semibold">
               {t("contactLink")}
             </Link>
           </div>

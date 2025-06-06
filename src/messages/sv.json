@@ -11,9 +11,9 @@
   },
   "home": {
     "educationHeading": "Min utbildning",
-    "educationIntro": "Jag har studerat Front End Development på Medieinstitutet, med fokus på moderna tekniker som React, TypeScript och UX-design.",
-    "cvHeading": "Min bakgrund",
-    "cvIntro": "Jag har en varierad bakgrund med fokus på problemlösning, struktur och kreativitet.",
+    "educationIntro": "Jag har studerat Front End Development på Medieinstitutet, med fokus på moderna tekniker som React, TypeScript och UX-design. Det är en omfattande utbildning som har gett mig en solid grund inom webbutveckling och interaktionsdesign. Utbildningen har också inkluderat praktikperioder där jag har fått tillämpa mina kunskaper i verkliga projekt.",
+    "cvHeading": "Om mig",
+    "cvIntro": "Jag har en varierad bakgrund med fokus på problemlösning, struktur och kreativitet. Jag har arbetat inom olika områden, inklusive administration och kundservice, vilket har gett mig en övergripande syn på arbetssätt och samarbete på många olika sätt.",
     "projectCarouselHeading": "Ett urval av mina projekt",
     "contactHeading": "Kontakt",
     "contactText": "Du kan nå mig via e-post, eller besöka kontaktsidan för att skicka ett meddelande.",
