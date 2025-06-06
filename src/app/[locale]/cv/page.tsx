@@ -66,11 +66,9 @@ export default function CVPage() {
               {exp.company}
             </p> 
             <p className="italic text-gray-700">{exp.period}</p>
-            <ul className="list-disc list-inside">
-              {exp.details.map((detail, i) => (
-                <li key={i}>{detail}</li>
-              ))}
-            </ul>
+            <p className="list-disc list-inside">
+              {exp.details}
+            </p>
           </div>
         ))}
       </section>
