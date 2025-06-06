@@ -55,7 +55,7 @@ export default function ContactForm() {
       subject: userInput.subject,
       email: userInput.email,
       message: userInput.message,
-      reply_to: userInput.email, // <- viktigt!
+      reply_to: userInput.email, 
     };
 
     try {
