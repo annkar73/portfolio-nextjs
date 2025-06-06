@@ -10,18 +10,18 @@
     }
   },
   "home": {
-  "educationHeading": "My Education",
-  "educationIntro": "I have been studying Front End Development at Medieinstitutet, focusing on modern technologies like React, TypeScript, and UX design.",
-  "cvHeading": "My Background",
-  "cvIntro": "I have a diverse background with a focus on problem solving, structure, and creativity.",
-  "projectCarouselHeading": "A selection of my projects",
-  "contactHeading": "Contact",
-  "contactText": "You can reach me by email, or visit the contact page to send a message.",
-  "contactLink": "Go to the contact page",
-  "cvReadMore": "Go to CV",
-  "eduReadMore": "Read more about the education",
-  "seeAllProjects": "Go to the projects page"
-},
+    "educationHeading": "My Education",
+    "educationIntro": "I have been studying Front End Development at Medieinstitutet, focusing on modern technologies like React, TypeScript, and UX design.",
+    "cvHeading": "My Background",
+    "cvIntro": "I have a diverse background with a focus on problem solving, structure, and creativity.",
+    "projectCarouselHeading": "A selection of my projects",
+    "contactHeading": "Contact",
+    "contactText": "You can reach me by email, or visit the contact page to send a message.",
+    "contactLink": "Go to the contact page",
+    "cvReadMore": "Go to CV",
+    "eduReadMore": "Read more about the education",
+    "seeAllProjects": "Go to the projects page"
+  },
   "hero": {
     "name": "Anna Karlsen",
     "title": "< Front End Developer />",
@@ -83,7 +83,7 @@
       "description": "Have you promised to get something done within a certain time? Does it turn out that it won't work? Here is a countdown without end that extends your deadline since it never reaches zero. The app is built with Vue."
     }
   },
- "cv": {
+  "cv": {
     "name": "Anna Karlsen",
     "title": "Front End Developer | Stockholm, Sweden",
     "contact": "karlsen1973@outlook.com",
@@ -102,31 +102,41 @@
           "degree": "Youth IT Training",
           "school": "AMU",
           "period": "1993-1993",
-          "details": ["Desktop publishing basics using PageMaker and Corel Draw."]
+          "details": [
+            "Desktop publishing basics using PageMaker and Corel Draw."
+          ]
         },
         {
           "degree": "Technical Training for Girls",
           "school": "AMI",
           "period": "1995-1995",
-          "details": ["Introductory technical education focusing on young women. Included basics in electronics, mechanics, and computer handling."]
+          "details": [
+            "Introductory technical education focusing on young women. Included basics in electronics, mechanics, and computer handling."
+          ]
         },
         {
           "degree": "Web and Information Design",
           "school": "Webgesäll",
           "period": "1996-1997",
-          "details": ["Basic training in web design, HTML, and image editing in Photoshop. Also included some project management when needed within my project group."]
+          "details": [
+            "Basic training in web design, HTML, and image editing in Photoshop. Also included some project management when needed within my project group."
+          ]
         },
         {
           "degree": "Digital Communication and Multimedia",
           "school": "Capital School of Multimedia",
           "period": "1997-1998",
-          "details": ["Multimedia education specializing in Motion Graphics Design. Tools included Illustrator, Photoshop, After Effects, and Premiere."]
+          "details": [
+            "Multimedia education specializing in Motion Graphics Design. Tools included Illustrator, Photoshop, After Effects, and Premiere."
+          ]
         },
         {
           "degree": "Business Economics, Mathematics, English, French, German, and Religion",
           "school": "Komvux/NTI-skolan",
           "period": "2009-2010",
-          "details": ["Distance learning in Business Economics A and B, Mathematics A, B and C, English B, French Level 1, German Level 1, and Religion A."]
+          "details": [
+            "Distance learning in Business Economics A and B, Mathematics A, B and C, English B, French Level 1, German Level 1, and Religion A."
+          ]
         },
         {
           "degree": "Welder MMA/111",
@@ -138,7 +148,9 @@
           "degree": "Front End Developer",
           "school": "Medieinstitutet",
           "period": "2023-2025",
-          "details": ["Focus on web development and interaction design. Courses included HTML, CSS/SCSS, JavaScript (intro and advanced), API development, agile project work, UX & usability, graphic tools for UI design, workflows for developers, testing, thesis project, and internships. Supplemented with lectures to provide industry insights and understanding."]
+          "details": [
+            "Focus on web development and interaction design. Courses included HTML, CSS/SCSS, JavaScript (intro and advanced), API development, agile project work, UX & usability, graphic tools for UI design, workflows for developers, testing, thesis project, and internships. Supplemented with lectures to provide industry insights and understanding."
+          ]
         }
       ]
     },
@@ -155,31 +167,41 @@
           "role": "Youth Intern",
           "company": "Tavelmålare Bengt Elde",
           "period": "1993 - 1994",
-          "details": ["Assisted in the studio shop, helped with basic tasks and customer service. Duties included priming paintings, gift wrapping, and selling art and prints."]
+          "details": [
+            "Assisted in the studio shop, helped with basic tasks and customer service. Duties included priming paintings, gift wrapping, and selling art and prints."
+          ]
         },
         {
           "role": "Mural Painting, Workplace Introduction",
           "company": "Berner Sverige",
           "period": "1994 - 1995",
-          "details": ["Workplace introduction initiative. Painted wall murals with Swedish motifs (midsummer, archipelago, etc.) in the company’s hallways and entrance."]
+          "details": [
+            "Workplace introduction initiative. Painted wall murals with Swedish motifs (midsummer, archipelago, etc.) in the company’s hallways and entrance."
+          ]
         },
         {
           "role": "Telephone Operator/Office Assistant",
           "company": "Söderkyl AB",
           "period": "1995 - 1996",
-          "details": ["Received service orders, maintained customer contact, and handled general office tasks."]
+          "details": [
+            "Received service orders, maintained customer contact, and handled general office tasks."
+          ]
         },
         {
           "role": "Office Assistant",
           "company": "Olsten Kontor och Administration",
           "period": "1998 - 2000",
-          "details": ["Office assistant at client locations. Tasks varied depending on client needs."]
+          "details": [
+            "Office assistant at client locations. Tasks varied depending on client needs."
+          ]
         },
         {
           "role": "Office Assistant",
           "company": "Två-Con AB",
           "period": "2000 - 2003",
-          "details": ["Office assistant at client site. Included invoice coding, purchase order registration, administrative tasks, and secretarial duties."]
+          "details": [
+            "Office assistant at client site. Included invoice coding, purchase order registration, administrative tasks, and secretarial duties."
+          ]
         },
         {
           "role": "Customer Service Consultant",
@@ -191,36 +213,69 @@
           "role": "Passport Control Officer",
           "company": "Manpower AB",
           "period": "2007 - 2007",
-          "details": ["Worked at Stockholm harbors on behalf of the Border Police Division in Stockholm County. Controlled passports, and handled entry and exit checks of visas and residence permits."]
+          "details": [
+            "Worked at Stockholm harbors on behalf of the Border Police Division in Stockholm County. Controlled passports, and handled entry and exit checks of visas and residence permits."
+          ]
         },
         {
           "role": "Administrator / Customer Service Representative",
           "company": "LFV Arlanda Parking",
           "period": "2008 - 2008",
-          "details": ["Administered parking permits for employees and travelers. Handled customer complaints."]
+          "details": [
+            "Administered parking permits for employees and travelers. Handled customer complaints."
+          ]
         },
         {
           "role": "Receptionist / Telephone Operator",
           "company": "Swedish National Courts Administration",
           "period": "2010 - 2013",
-          "details": ["Worked at the reception and switchboard at Norrtälje District Court."]
+          "details": [
+            "Worked at the reception and switchboard at Norrtälje District Court."
+          ]
         },
         {
           "role": "Administrative Assistant",
           "company": "Norrtälje Municipality",
           "period": "2018 - 2021",
-          "details": ["Performed administrative duties in various sectors of social services."]
+          "details": [
+            "Performed administrative duties in various sectors of social services."
+          ]
         }
       ]
     },
     "skills": {
       "heading": "Skills",
       "items": [
-        "HTML", "CSS", "JavaScript", "TypeScript", "Vue", "React",
-        "Angular", "Next.js", "Tailwind CSS", "Git & GitHub",
-        "Accessibility (a11y)", "Responsive Design", "Agile/Scrum",
-        "UX/UI Design", "Problem Solving"
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Angular",
+        "Next.js",
+        "Tailwind CSS",
+        "Git & GitHub",
+        "Accessibility (a11y)",
+        "Responsive Design",
+        "Agile/Scrum",
+        "UX/UI Design",
+        "Problem Solving"
       ]
     }
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "I am always interested in hearing from you! If you have questions, suggestions, or just want to say hello, feel free to contact me. You can either send a message via the form below or email me directly.",
+    "name": "Your name",
+    "email": "Your email address",
+    "message": "Your message",
+    "submit": "Send message",
+    "success": "Message sent successfully!",
+    "error": "Failed to send message. Please try again later.",
+    "address": "",
+    "GitHub": "GitHub",
+    "LinkedIn": "LinkedIn"
+
   }
 }

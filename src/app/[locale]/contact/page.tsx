@@ -1,11 +1,16 @@
-// app/contact/page.tsx
-export default function OmPage() {
+import ContactForm from "@/components/ContactForm";
+import { useTranslations } from "next-intl";
+
+export default function ContactPage() {
+  const t = useTranslations("contact");
+
   return (
-    <main className="max-w-5xl mx-auto p-6 bg-white text-[var(--color-foreground)]">
-      <h1 className="text-3xl font-bold mb-4">Kontakt</h1>
-      <p>Här kan du lägga till kontaktuppgifter.</p>
-      <p>Eventuellt ett kontaktformulär med EmailJS om jag får till det snyggt</p>
-      <p>kolla hur jag gör det snyggt så fort deploy funkar som det ska</p>
+    <>
+    <main className="max-w-3xl mx-auto px-4 py-8 bg-white">
+      <h1 className="text-3xl font-bold mb-6 text-center">{t("title")}</h1>
+      <p className="max-w-3xl text-lg mb-8 text-center">{t("intro")}</p>
+      <ContactForm />
     </main>
+    </>
   );
 }
