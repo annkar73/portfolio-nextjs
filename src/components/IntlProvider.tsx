@@ -2,6 +2,7 @@
 'use client';
 
 import { NextIntlClientProvider } from 'next-intl';
+import { useMemo } from 'react';
 
 interface Props {
   locale: string;
@@ -9,9 +10,17 @@ interface Props {
   children: React.ReactNode;
 }
 
-export default function IntlProvider({ locale, messages, children }: Props) {
+export default function IntlProvider({ children, locale, messages }: Props) {
+
+  const now = useMemo(() => new Date(), []);
+
   return (
-    <NextIntlClientProvider locale={locale} messages={messages}>
+    <NextIntlClientProvider
+      locale={locale}
+      messages={messages}
+      timeZone="Europe/Stockholm" // 👈 Lägg till denna rad!
+      now={now}
+    >
       {children}
     </NextIntlClientProvider>
   );
