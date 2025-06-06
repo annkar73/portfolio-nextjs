@@ -274,8 +274,14 @@
   "submit": "Skicka meddelande",
   "success": "Meddelandet skickades!",
   "error": "Det gick inte att skicka meddelandet. Försök igen senare.",
+  "subtitle": "Andra kontaktvägar",
+  "contactinfo": "Kontaktinformation",
+  "addressText": "Skicka ett e-postmeddelande till mig på",
   "address": "karlsen1973@outlook.com",
-  "github": "GitHub",
-  "linkedin": "LinkedIn"
-  }
+  "githubText": "Du kan också hitta mig på GitHub",
+  "github": "https://github.com/annkar73",
+  "linkedinText": "eller skapa kontakt på LinkedIn",
+  "linkedin": "https://www.linkedin.com/in/annakarlsen/"
+  
+}
 }

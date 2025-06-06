@@ -273,9 +273,13 @@
     "submit": "Send message",
     "success": "Message sent successfully!",
     "error": "Failed to send message. Please try again later.",
+    "subtitle": "Other ways to contact me",
+    "addressText": "Send me an email at",
     "address": "karlsen1973@outlook.com",
-    "github": "GitHub",
-    "linkedin": "LinkedIn"
+    "githubText": "You can also find me on",
+    "github": "https://github.com/annkar73",
+    "linkedinText": "or connect with me on",
+    "linkedin": "https://www.linkedin.com/in/annakarlsen/"
 
   }
 }
