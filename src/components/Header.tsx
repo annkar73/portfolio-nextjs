@@ -17,18 +17,22 @@ export default function Header() {
     <header
       style={{
         backgroundColor: "var(--color-foreground)",
-        color: "var(--color-background)",
+        color: "var(--color-accent)",
       }}
       className="w-full px-6 py-4 flex justify-between items-center relative print:hidden"
     >
-      <h1 className="font-bold text-xl">
+      <div className="flex items-center space-x-4">
         <Link href={`/${locale}`}>
-        <Image src="/images/ak_logo_2.webp" alt="AK Logo" width="55" height="55" />
+          <Image
+            src="/images/ak_logo_2.webp"
+            alt="AK Logo"
+            width="55"
+            height="55"
+            className="ml-2 md:ml-4 lg:ml-8"
+          />
         </Link>
-          
-        
-      </h1>
-
+        <h1 className="font-bold text-2xl hidden lg:inline">{t(`title`)}</h1>
+      </div>
       {/* Desktop: Container för nav + toggle, längst till höger */}
       <div className="hidden md:flex items-center space-x-4">
         <nav className="flex space-x-6 text-right font-semibold">
