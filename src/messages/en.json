@@ -270,6 +270,7 @@
     "intro": "I am always interested in hearing from you! If you have questions, suggestions, or just want to say hello, feel free to contact me. You can either send a message via the form below or email me directly.",
     "name": "Your name",
     "email": "Your email address",
+    "subject": "Subject", 
     "message": "Your message",
     "submit": "Send message",
     "success": "Message sent successfully!",
