@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 export const metadata: Metadata = {
   title: "Anna Karlsen - Portfolio",
   description: "Portfolio of Anna Karlsen, Front End Developer",
+  icons: {
+    icon: "/images/ak_logo_2.png",   
+  },
 };
 
 interface RootLayoutProps {

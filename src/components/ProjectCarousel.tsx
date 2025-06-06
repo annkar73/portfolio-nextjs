@@ -24,9 +24,9 @@ export default function ProjectCarousel() {
 
       carousel.scrollLeft += scrollSpeed;
 
-      // När vi nått mitten (eftersom innehållet är dubblat), hoppa tillbaka till början
+      
       if (carousel.scrollLeft >= carousel.scrollWidth / 2) {
-        // Men gör det osynligt (ingen visuell hoppning)
+        
         carousel.scrollLeft = 0;
       }
 
@@ -44,7 +44,7 @@ export default function ProjectCarousel() {
         ref={carouselRef}
         className="flex gap-2 whitespace-nowrap overflow-hidden select-none pointer-events-none"
       >
-        {/* Dubbla projekten för loop-effekt */}
+        {/* Double projects for loop effect */}
         {[...projects, ...projects].map((project, index) => (
           <div
             key={index}

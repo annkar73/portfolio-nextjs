@@ -6,6 +6,7 @@ import { Menu, X } from "lucide-react";
 import navLinks from "@/lib/navLinks";
 import { useTranslations, useLocale } from "next-intl";
 import ToggleSwitch from "./ToggleSwitch"; // rätt path
+import Image from "next/image";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,9 +22,11 @@ export default function Header() {
       className="w-full px-6 py-4 flex justify-between items-center relative print:hidden"
     >
       <h1 className="font-bold text-xl">
-        <Link href={`/${locale}`} style={{ color: "var(--color-accent)" }}>
-          {t("title")}
+        <Link href={`/${locale}`}>
+        <Image src="/images/ak_logo_2.webp" alt="AK Logo" width="55" height="55" />
         </Link>
+          
+        
       </h1>
 
       {/* Desktop: Container för nav + toggle, längst till höger */}
