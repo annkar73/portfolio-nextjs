@@ -265,7 +265,7 @@
     }
   },
   "contact": {
-    "title": "Contact",
+    "title": "Contact me",
     "intro": "I am always interested in hearing from you! If you have questions, suggestions, or just want to say hello, feel free to contact me. You can either send a message via the form below or email me directly.",
     "name": "Your name",
     "email": "Your email address",
@@ -273,9 +273,9 @@
     "submit": "Send message",
     "success": "Message sent successfully!",
     "error": "Failed to send message. Please try again later.",
-    "address": "",
-    "GitHub": "GitHub",
-    "LinkedIn": "LinkedIn"
+    "address": "karlsen1973@outlook.com",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
 
   }
 }

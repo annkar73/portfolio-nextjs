@@ -24,18 +24,18 @@ interface RootLayoutProps {
   };
 }
 
-// ✅ Rätt sätt att importera med dynamic path i Next.js App Router
+
 async function getMessages(locale: string) {
   try {
     const messages = (await import(`../../messages/${locale}.json`)).default;
     return messages as Record<string, string | Record<string, string>>;
   } catch (error) {
     console.error(`Could not load messages for locale "${locale}"`, error);
-    return {}; // fallback till tomma texter
+    return {}; 
   }
 }
 
-// ✅ RootLayout som async funktion
+
 export default async function RootLayout({ children, params }: RootLayoutProps) {
   const { locale } = await params;
   const messages = await getMessages(locale);

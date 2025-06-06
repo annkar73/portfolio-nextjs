@@ -12,7 +12,7 @@ interface IUserInput {
 }
 
 export default function ContactForm() {
-  const t = useTranslations("contact");
+  const t = useTranslations();
 
   const [userInput, setUserInput] = useState<IUserInput>({
     name: "",
@@ -45,11 +45,11 @@ export default function ContactForm() {
       const res = await emailjs.send(serviceID, templateID, emailParams, userID);
 
       if (res.status === 200) {
-        toast.success(t("success"));
+        toast.success(t(`contact.success`));
         setUserInput({ name: "", email: "", message: "" });
       }
     } catch {
-      toast.error(t("error"));
+      toast.error(t(`contact.error`));
     }
   };
 
@@ -60,7 +60,7 @@ export default function ContactForm() {
     >
       <div>
         <label className="block mb-1 font-medium">
-          {t("name")}
+          {t(`contact.name`)}
         </label>
         <input
           type="text"
@@ -74,7 +74,7 @@ export default function ContactForm() {
 
       <div>
         <label className="block mb-1 font-medium">
-          {t("email")}
+          {t(`contact.email`)}
         </label>
         <input
           type="email"
@@ -88,7 +88,7 @@ export default function ContactForm() {
 
       <div>
         <label className="block mb-1 font-medium">
-          {t("message")}
+          {t(`contact.message`)}
         </label>
         <textarea
           name="message"
@@ -102,9 +102,9 @@ export default function ContactForm() {
 
       <button
         type="submit"
-        className="w-full bg-[var(--color-secondary-accent)] hover:bg--[var(--color-background)] text--[var(--color-foreground)] hover:text-[var(--color-foreground)] border--[var(--color-secondary-accent)] hover:border-[var(--color-foreground)] font-semibold py-2 px-4 cursor-pointer rounded-none transition"
+        className="w-full bg-[var(--color-secondary-accent)] hover:bg-[var(--color-foreground)] text-[var(--color-foreground)] hover:text-[var(--color-accent)] border-[var(--color-secondary-accent)] font-semibold py-2 px-4 cursor-pointer rounded-none transition"
       >
-        {t("submit")}
+        {t(`contact.submit`)}
       </button>
     </form>
   );
