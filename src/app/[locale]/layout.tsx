@@ -37,7 +37,7 @@ async function getMessages(locale: string) {
 
 
 export default async function RootLayout({ children, params }: RootLayoutProps) {
-  const { locale } = await params;
+  const { locale } = params;
   const messages = await getMessages(locale);
 
   return (
