@@ -18,7 +18,7 @@ export default function Header() {
         backgroundColor: "var(--color-foreground)",
         color: "var(--color-background)",
       }}
-      className="w-full px-6 py-4 flex justify-between items-center relative"
+      className="w-full px-6 py-4 flex justify-between items-center relative print:hidden"
     >
       <h1 className="font-bold text-xl">
         <Link href={`/${locale}`} style={{ color: "var(--color-accent)" }}>
