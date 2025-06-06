@@ -14,6 +14,7 @@ export default function CVPage() {
 
   const experience = t.raw("experience.items") as {
     role: string;
+    company: string;
     period: string;
     details: string[];
   }[];
@@ -27,9 +28,15 @@ export default function CVPage() {
     >
       <section className="mb-8">
         <h1 className="text-4xl font-bold mb-2">{t("name")}</h1>
-        <p className="text-lg text-gray-700 mb-1">{t("title")}</p>
-        <p className="text-gray-600 mb-4">{t("contact")}</p>
-        <p className="text-gray-600 mb-4">{t("linkedin")}</p>
+        <p className="text-lg text-gray-700 mb-2">{t("title")}</p>
+        <p className="text-gray-600 mb-1">
+          <a href={`mailto:${t("contact")}`} className="hover:font-semibold hover:underline">{t("contact")}</a>
+          </p>
+        <p className="text-gray-600 mb-1">
+          <a href={t("linkedin")} className="hover:font-semibold hover:underline"> {t("linkedin")}</a></p>
+        <p className="text-gray-600 mb-2">
+          <a href={t("github")} className="hover:font-semibold hover:underline">
+          {t("github")}</a></p>
       </section>
 
       <section className="mb-8">
@@ -39,9 +46,10 @@ export default function CVPage() {
         {education.slice().reverse().map((edu, index) => (
           <div key={index} className="mb-4">
             <h3 className="font-semibold text-lg">{edu.degree}</h3>
-            <p className="italic text-gray-700">
-              {edu.school} — {edu.period}
+            <p className="font-semibold italic text-gray-700">
+              {edu.school}
             </p>
+            <p className="italic text-gray-700">{edu.period}</p>
             <p>{edu.details}</p>
           </div>
         ))}
@@ -54,6 +62,9 @@ export default function CVPage() {
         {experience.slice().reverse().map((exp, index) => (
           <div key={index} className="mb-4">
             <h3 className="font-semibold text-lg">{exp.role}</h3>
+            <p className="font-semibold italic text-gray-700">
+              {exp.company}
+            </p> 
             <p className="italic text-gray-700">{exp.period}</p>
             <ul className="list-disc list-inside">
               {exp.details.map((detail, i) => (
