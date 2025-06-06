@@ -267,7 +267,8 @@
   },
   "contact": {
     "title": "Contact me",
-    "intro": "I am always interested in hearing from you! If you have questions, suggestions, or just want to say hello, feel free to contact me. You can either send a message via the form below or email me directly.",
+    "intro": "I am always interested in hearing from you! If you have questions, suggestions, or just want to say hello, feel free to contact me.",
+    "intro2": "You can use the form or, if you prefer to send an email, you can reach me at the address below.",
     "name": "Your name",
     "email": "Your email address",
     "subject": "Subject", 

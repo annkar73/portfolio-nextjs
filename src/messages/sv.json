@@ -268,7 +268,8 @@
   },
  "contact": {
   "title": "Kontakta mig",
-  "intro": "Jag är alltid intresserad av att höra från dig! Om du har frågor, förslag eller bara vill säga hej, tveka inte att kontakta mig. Du kan antingen skicka ett meddelande via formuläret nedan eller skicka ett e-postmeddelande direkt till mig.",
+  "intro": "Jag är alltid intresserad av att höra från dig! Om du har frågor, förslag eller bara vill säga hej, tveka inte att kontakta mig. ",
+  "intro2": "Du kan antingen skicka ett meddelande via formuläret nedan eller skicka ett e-postmeddelande direkt till mig.",
   "name": "Ditt namn",
   "email": "Din e-postadress",
   "subject": "Ämne",
