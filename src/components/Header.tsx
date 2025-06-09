@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import navLinks from "@/lib/navLinks";
 import { useTranslations, useLocale } from "next-intl";
-import ToggleSwitch from "./ToggleSwitch"; // rätt path
+import ToggleSwitch from "./ToggleSwitch";
 import Image from "next/image";
 
 export default function Header() {
@@ -31,25 +31,29 @@ export default function Header() {
             className="ml-2 md:ml-4 lg:ml-8"
           />
         </Link>
-        <h1 className="font-bold text-2xl hidden lg:inline">{t(`title`)}</h1>
+        <h1 className="font-bold text-2xl hidden lg:inline">{t("title")}</h1>
       </div>
-      {/* Desktop: Container för nav + toggle, längst till höger */}
+
+      {/* Desktop: nav + toggle */}
       <div className="hidden md:flex items-center space-x-4">
-        <nav className="flex space-x-6 text-right font-semibold">
-          {navLinks.map(({ href, labelKey }) => (
-            <Link
-              key={href}
-              href={`/${locale}${href}`}
-              className="text-[var(--color-accent)] hover:underline hover:text-[var(--color-secondary-accent)]"
-            >
-              {t(labelKey)}
-            </Link>
-          ))}
+        <nav className="text-right font-semibold">
+          <ul className="flex space-x-6">
+            {navLinks.map(({ href, labelKey }) => (
+              <li key={href}>
+                <Link
+                  href={`/${locale}${href}`}
+                  className="text-[var(--color-accent)] hover:underline hover:text-[var(--color-secondary-accent)]"
+                >
+                  {t(labelKey)}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </nav>
         <ToggleSwitch />
       </div>
 
-      {/* Mobil: Toggle före hamburger */}
+      {/* Mobil: Toggle + menyknapp */}
       <div className="flex md:hidden items-center space-x-4">
         <ToggleSwitch />
         <button
@@ -62,23 +66,26 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Mobile nav */}
+      {/* Mobilmeny */}
       {isOpen && (
         <nav
-          className="absolute top-full left-0 right-0 text-right flex flex-col p-4 pr-10 space-y-4 md:hidden z-50 shadow-md"
+          className="absolute top-full left-0 right-0 text-right p-4 pr-10 md:hidden z-50 shadow-md"
           style={{ backgroundColor: "var(--color-foreground)" }}
         >
-          {navLinks.map(({ href, labelKey }) => (
-            <Link
-              key={href}
-              href={`/${locale}${href}`}
-              onClick={() => setIsOpen(false)}
-              className="hover:underline"
-              style={{ color: "var(--color-accent)" }}
-            >
-              {t(labelKey)}
-            </Link>
-          ))}
+          <ul className="flex flex-col space-y-4">
+            {navLinks.map(({ href, labelKey }) => (
+              <li key={href}>
+                <Link
+                  href={`/${locale}${href}`}
+                  onClick={() => setIsOpen(false)}
+                  className="hover:underline"
+                  style={{ color: "var(--color-accent)" }}
+                >
+                  {t(labelKey)}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </nav>
       )}
     </header>
