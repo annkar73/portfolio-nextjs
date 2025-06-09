@@ -22,7 +22,7 @@ export default function Hero() {
         <h3 className="text-[var(--color-background)] text-xl md:text-3xl italic font-mono">
           {t("title")}
         </h3>
-        <div className="my-10 mx-10 text-[var(--color-accent)] text-xl md:text-2xl space-y-4">
+        <div className="my-10 mx-10 text-[var(--color-accent)] text-center max-w-3xl text-xl md:text-2xl space-y-4">
         <p>
             <q className="italic">{t("quote")}</q>{" "}
             <span>{t("quoteAuthor")}</span>

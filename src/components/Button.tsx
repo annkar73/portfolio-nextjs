@@ -9,7 +9,7 @@ export default function Button({ className, ...props }: ButtonProps) {
   return (
     <ShadcnButton
       className={cn(
-        "border border-2 border-[var(--color-accent)] text-[var(--color-accent)] uppercase font-semibold bg-transparent hover:border-[var(--color-secondary-accent)] hover:text-[var(--color-secondary-accent)] hover:bg-transparent",
+        "border border-2 border-[var(--color-accent)] text-[var(--color-accent)] uppercase font-semibold bg-transparent cursor-pointer hover:border-[var(--color-secondary-accent)] hover:text-[var(--color-secondary-accent)] hover:bg-transparent",
         className
       )}
       {...props}
