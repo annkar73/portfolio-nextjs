@@ -58,7 +58,7 @@
     "intro": "Här är några av de projekt jag har arbetat med i anslutning till min utbildning. Varje projekt har gett mig möjlighet att tillämpa mina kunskaper och färdigheter inom webbutveckling.",
     "wordmatch": {
       "title": "Word Match",
-      "description": "Mitt examensarbete. En spel av memorytyp men matchning mellan bild och ord för att inspirera mindre barn att lära sig läsa och skriva genom lek. Appen är byggd med React och TypeScript."
+      "description": "Mitt examensarbete. Ett spel av memorytyp men matchning mellan bild och ord för att inspirera mindre barn att lära sig läsa och skriva genom lek. Appen är byggd med React och TypeScript."
     },
     "memory": {
       "title": "Memory",
@@ -74,7 +74,7 @@
     },
     "christmas": {
       "title": "Julkort",
-      "description": "Ett digitalt julkort med olika spel, recept målarbilder mm och varierande bakgrundsbilder som en liten julhälsning till familj, vänner och bekanta från mig och min son. Appen är byggd med Vite, React och Typescript."
+      "description": "Ett digitalt julkort med olika spel, recept målarbilder mm och varierande bakgrundsbilder. Skapades som ett julkort till familj och vänner från mig och min son. Appen är byggd med Vite, React och Typescript."
     },
     "birthday": {
       "title": "Födelsedagskort",
@@ -121,7 +121,7 @@
           "school": "Webgesäll",
           "period": "1996-1997",
           "details": [
-            "Grundläggande utbildning i webdesign, html och bildhantering i Photoshop. Till viss del även projektledning då behovet uppstod i projektgruppen jag hörde till under utbildningen."
+            "Grundläggande utbildning i webdesign, HTML och bildhantering i Photoshop. Till viss del även projektledning då behovet uppstod i projektgruppen jag hörde till under utbildningen."
           ]
         },
         {
@@ -163,7 +163,7 @@
           "role": "Receptionist/Telefonist",
           "company": "Berner Sverige",
           "period": "1992 - 1993",
-          "details": ["Bemanning av telefonväxel och reception"]
+          "details": ["Bemanning av telefonväxel och reception."]
         },
         {
           "role": "Ungdomspraktikant",
@@ -186,7 +186,7 @@
           "company": "Söderkyl AB",
           "period": "1995 - 1996",
           "details": [
-            "Ordermottagning för servicetjänster, kundkontakt och allmänna kontorssysslor"
+            "Ordermottagning för servicetjänster, kundkontakt och allmänna kontorssysslor."
           ]
         },
         {
@@ -224,7 +224,7 @@
           "company": "LFV Arlanda Parkering",
           "period": "2008 - 2008",
           "details": [
-            "Administration av parkeringstillstånd för personal och resenärer, samt hantering av kundklagomål"
+            "Administration av parkeringstillstånd för personal och resenärer, samt hantering av kundklagomål."
           ]
         },
         {

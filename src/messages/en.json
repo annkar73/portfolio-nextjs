@@ -33,7 +33,7 @@
     "title": "About the Education",
     "intro": "In October 2023, I started the Media Institute's remote education program to become a Front End Developer. On May 27, 2025, it was time for graduation after four fantastic, informative, and intensive semesters resulting in 400 YH credits.",
     "courses": "Courses",
-    "coursesDescription": "The education included courses in HTML and CSS, JavaScript (basic and advanced), API development, Agile project work, UX & Usability, graphical tools for interface design, working methodology for developers, testing, thesis and LIA periods for internship. In addition, we also had lectures by external parties to gain a deeper understanding and insight into the industry.",
+    "coursesDescription": "The education included courses in HTML and CSS, JavaScript (basic and advanced), API development, Agile project work, UX & Usability, graphical tools for interface design, working methodology for developers, testing, thesis and LIA periods for internship. In addition, we also had lectures by external parties to gain a deeper understanding and insights into the industry.",
     "lia": "LIA (Learning in Work)",
     "liaDescription": "LIA was an important part of the education where I gained practical experience within the industry. During my LIA periods, I worked on real projects to apply my skills in a real work environment. This gave me the opportunity to build my network and gain valuable insight into working life as a Front End Developer.",
     "lia1Title": "LIA 1",
@@ -64,7 +64,7 @@
     },
     "advent": {
       "title": "Advent Calendar",
-      "description": "An advent calendar with doors to open from December 1st that contains tips on recipes and crafts. The app is built with Vite, React and TypeScript."
+      "description": "An advent calendar with doors to open from December 1st that contains tips on recipes and crafts. Created as a Christmas Card for family and friends from me and my son. The app is built with Vite, React and TypeScript."
     },
     "numbers": {
       "title": "Number generator",
@@ -128,7 +128,7 @@
           "school": "Capital School of Multimedia",
           "period": "1997-1998",
           "details": [
-            "Multimedia education specializing in Motion Graphics Design. Tools included Illustrator, Photoshop, After Effects, and Premiere."
+            "Multimedia education specializing in Motion Graphics Design. Tools included Illustrator, Photoshop, After Effects, and Première."
           ]
         },
         {

@@ -21,7 +21,7 @@ export default function Header() {
       }}
       className="w-full px-6 py-4 flex justify-between items-center relative print:hidden"
     >
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center space-x-4 cursor-pointer">
         <Link href={`/${locale}`}>
           <Image
             src="/images/ak_logo_2.webp"
@@ -55,7 +55,7 @@ export default function Header() {
         <button
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
-          className="p-2"
+          className="p-2 cursor-pointer"
           style={{ color: "var(--color-accent)" }}
         >
           {isOpen ? <X size={24} /> : <Menu size={24} />}

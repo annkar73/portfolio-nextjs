@@ -23,7 +23,7 @@ const Footer = () => {
                         alt="LinkedIn"
                         width={30}
                         height={30}
-                        className="rounded-full"
+                        className="rounded-full cursor-pointer"
                     />
                 </a>
 
@@ -38,7 +38,7 @@ const Footer = () => {
                         alt="GitHub"
                         width={30}
                         height={30}
-                        className="rounded-full"
+                        className="rounded-full cursor-pointer"
                     />
                 </a>
             </div>

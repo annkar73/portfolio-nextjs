@@ -16,7 +16,7 @@ export default function ProjectCarousel() {
     const carousel = carouselRef.current;
     if (!carousel) return;
 
-    const scrollSpeed = 2;
+    const scrollSpeed = 1.5;
     let animationFrame: number;
 
     const animate = () => {
