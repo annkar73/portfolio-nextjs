@@ -12,13 +12,14 @@ function getLocale(request: NextRequest): string {
   });
 
   const languages = new Negotiator({ headers }).languages();
-  return matchLocale(languages, locales, defaultLocale);
+  const matched = matchLocale(languages, locales, defaultLocale);
+  console.log('Detected locale:', matched); // <-- Viktig logg
+  return matched;
 }
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // Låt Next hantera interna requests och språk-prefix
   if (
     pathname.startsWith('/_next') ||
     pathname.startsWith('/api') ||
@@ -31,9 +32,10 @@ export function middleware(request: NextRequest) {
   const locale = getLocale(request);
   const url = request.nextUrl.clone();
   url.pathname = `/${locale}${pathname}`;
+  console.log('Redirecting to:', url.pathname); // <-- Viktig logg
   return NextResponse.redirect(url);
 }
 
 export const config = {
-  matcher: ['/((?!_next|api|favicon.ico).*)'],
+  matcher: ['/', '/((?!_next|api|favicon.ico).*)'], // viktig matcher
 };
